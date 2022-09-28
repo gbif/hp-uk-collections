@@ -4,7 +4,7 @@
 
 # GBIF Hosted Portal: hp-uk-collections
 
-This Jekyll website, **[hp-uk-collections](https://hp-uk-collections.gbif.org/)**, makes use of a theme and biodiversity widgets developed by the GBIF network.
+This Jekyll website, **[hp-uk-collections](https://uk-collections.hp.gbif.org/)**, makes use of a theme and biodiversity widgets developed by the GBIF network.
 
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
