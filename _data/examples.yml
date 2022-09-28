@@ -6,15 +6,15 @@ stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true">642</span>
       description: Institutions
-      background: /assets/images/institutions.png
+      background: /assets/images/institutions_small.jpg
       href: /institution/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true">45</span>
       description: Collections
-      background: /assets/images/collections.png
+      background: /assets/images/collections_small.jpg
       href: /collection/search
     - title: 137+
       description: Million specimens
-      background: /assets/images/specimen.jpg
+      background: /assets/images/specimen_small.jpg
 
 couldBeAnyName:
   title: Virginis socerque
