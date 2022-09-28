@@ -1,30 +1,69 @@
-couldBeAnyName:
-  title: Checkout these cards!
-  description: |
-    This content in the yaml file could be used anywhere, right now it shows on the complex example page 
+stats:
+  klass: contentTypesStat
+  # title: "type: stats"
+  # description: |      # required
+  #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
   features:
-    - title: Pretty drawing # required
-      # preTitle: News  # optional
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true">642</span>
+      description: Institutions
+      background: /assets/images/institutions.png
+      href: /institution/search
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true">45</span>
+      description: Collections
+      background: /assets/images/collections.png
+      href: /collection/search
+    - title: 137+
+      description: Million specimens
+      background: /assets/images/specimen.jpg
+
+couldBeAnyName:
+  title: Virginis socerque
+  description: |
+    Forth beginning form dry thing. Form seed void likeness darkness light. Can’t created third upon spirit fruitful hath likeness their. Replenish saw female night they’re you blessed all greater cattle, grass god fifth you’re. Above wherein replenish face multiply male every. Own hath lights under creeping.
+  features:
+    - title: Abundantly light years # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg # img required
-      imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
       href: /about
+      # img required
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      imageLicense: None for this image, but normally you would provide one here
       # categories: [drawings] # optional
-    - title: Other nice drawing
+    - title: Fly moving land # required
+      description: |      # required
+        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      description: |
-        Light green they’re living green years firmament thing fly moving land, divide good spirit you’ll fruitful waters one land us thing a man dry doesn’t created made land man dry i us fruitful replenish said dominion a sixth own it tree.
-      background: /assets/img/Haeckel_Caulerpa_racemosa_(uvifera).jpeg
-      imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
-someOtherNameForSomeData: 
-  reverse: false # optional
-  title: Half and half
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      imageLicense: None for this image, but normally you would provide one here
+    - title: Fruitful replenish # required
+      description: |      # required
+        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+      href: /about
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      imageLicense: None for this image, but normally you would provide one here
+    - title: Land man dry # required
+      description: |      # required
+        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+      href: /about
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      imageLicense: None for this image, but normally you would provide one here
+    - title: Abundantly light years # required
+      description: |      # required
+        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+      href: /about
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      imageLicense: None for this image, but normally you would provide one here
+
+herbariumImageExample:
+  reverse: false
+  title: "type: split"
   description: |      # required
-    Light green they’re living green years firmament thing fly moving land, divide good spirit you’ll fruitful waters one land us thing a man dry doesn’t created made land man dry i us fruitful replenish said dominion a sixth own it tree.
+    See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L12) for the content structure.
+    Forth beginning form dry thing. Form seed void likeness darkness light. Can't created third upon spirit fruitful hath likeness their. Replenish saw female night they're you blessed all greater cattle, grass god fifth you're. Above wherein replenish face multiply male every. Own hath lights under creeping.
   # img required
-  background: /assets/img/Haeckel_Siphoneae.jpg
-  imageLicense: Kunstformen der Natur (1904) by Ernst Haeckel via [Wikimedia](https://commons.wikimedia.org/wiki/Kunstformen_der_Natur)
+  background: https://data.nhm.ac.uk/media/d9850154-9e45-426c-8712-d030da3c1c00
+  imageLicense: |
+    *Polyptychodon* Owen, 1841 collected in United Kingdom of Great Britain and Northern Ireland. [See full record](/specimen/search?entity=1057252794&view=TABLE) (licensed under http://creativecommons.org/licenses/by/4.0/)
   href: /about
   cta:
   - text: Download report

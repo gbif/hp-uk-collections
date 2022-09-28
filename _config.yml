@@ -19,14 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Template # the title of your site should go here
+title: UK Collections # the title of your site should go here
 email: your-email@example.com
 description: >- # this means to ignore newlines (until baseurl:)
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hp-template.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hp-uk-collections.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
 github_username:  yourname # if you have an account you want to link to. Else comment this line out
 
@@ -55,13 +55,13 @@ siteMeasurements:
 algae:
   rootLang: en
   # latestPostLimit: 2
-  # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
-  # logoAndTitle: false           # include the title next to the logo
+  logo: /assets/images/logo/logo.svg  # Logo in navbar, will be displayed with 28px height
+  logoAndTitle: false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
     colors:
-      primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
+      primary: "#295077"          # Primary color of your brand. Use HEX code. Used for buttons and links
       # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
     coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR

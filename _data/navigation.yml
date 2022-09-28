@@ -2,15 +2,15 @@
 
 - text: About
   href: /about
-- text: Occurrences
-  href: /occurrence/search
-- text: Example pages
-  menu: # Dropdown menu (one level deep only)
-  - text: Simple
-    href: /example-pages/simple
-  - text: Complex
-    href: /example-pages/complex
-- text: Links
+- text: Explore
+  menu: 
+  - text: Institutions
+    href: /institution/search
+  - text: Collections
+    href: /collection/search
+  - text: Specimens
+    href: /specimen/search
+- text: Editor links
   menu: # Dropdown menu (one level deep only)
   - text: Base theme demo
     href: https://hp-base-theme.gbif-staging.org/
@@ -24,5 +24,11 @@
     href: https://guides.github.com/features/mastering-markdown/
   - text: YAML tutorial
     href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: "Example pages" # Title for block of menu items
+  - text: Simple
+    href: /example-pages/simple
+  - text: Complex
+    href: /example-pages/complex
 - text: News
   href: /news/
