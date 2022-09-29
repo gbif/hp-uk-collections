@@ -5,6 +5,14 @@
   margin: 0 12px;
 }
 
+@media (min-width: 1050px) {
+  .home {
+    .floatingHero .feature-title {
+      font-size: 4.5rem;
+    }
+  }
+}
+
 .contentTypesStat {
   .statistics-cards {
     justify-content: space-between;

@@ -1,14 +1,15 @@
 ---
 lang-ref: home
 layout: home
+klass: home
 title: UK Collections
 description: Lesser saw seas own have can’t kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they’re grass called open.
 background: /assets/images/sample_image.png
 imageLicense: None for this image, but normally you would provide one here
 height: 70vh
 cta:
-  - text: Start exploring
-    href: /specimen/search
+  - text: Institutions
+    href: /institution/search
     isPrimary: true
   - text: About
     href: /about
