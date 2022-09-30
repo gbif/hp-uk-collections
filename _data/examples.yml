@@ -12,7 +12,7 @@ stats:
       description: Collections
       background: /assets/images/collections_small.jpg
       href: /collection/search
-    - title: 10 Million+
+    - title: 10 million+
       description: Digitised Specimens
       background: /assets/images/specimen_small.jpg
       href: /specimen/search
