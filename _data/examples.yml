@@ -12,53 +12,53 @@ stats:
       description: Collections
       background: /assets/images/collections_small.jpg
       href: /collection/search
-    - title: 137+
-      description: Million specimens
+    - title: 10 Million+
+      description: Digitised Specimens
       background: /assets/images/specimen_small.jpg
+      href: /specimen/search
 
 couldBeAnyName:
-  title: Virginis socerque
-  description: |
-    Forth beginning form dry thing. Form seed void likeness darkness light. Can’t created third upon spirit fruitful hath likeness their. Replenish saw female night they’re you blessed all greater cattle, grass god fifth you’re. Above wherein replenish face multiply male every. Own hath lights under creeping.
+  title: Featured Collections
+  #description: Uncomment this to add text below title    
   features:
     - title: Abundantly light years # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
       # img required
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      background: /assets/images/spirit.jpg
       imageLicense: None for this image, but normally you would provide one here
       # categories: [drawings] # optional
     - title: Fly moving land # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      background: /assets/images/beetle.jpg
       imageLicense: None for this image, but normally you would provide one here
     - title: Fruitful replenish # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      background: /assets/images/slides.png
       imageLicense: None for this image, but normally you would provide one here
     - title: Land man dry # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      background: /assets/images/butterfly.jpg
       imageLicense: None for this image, but normally you would provide one here
     - title: Abundantly light years # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1024616336934043709/4d1ec6e0-31e3-4cf6-acc4-8b6908a2dd56_progress_image_72.webp
+      background: /assets/images/herbarium.jpg
       imageLicense: None for this image, but normally you would provide one here
 
 herbariumImageExample:
   reverse: false
-  title: "Likeness darkness light"
+  title: "DiSSCo UK: Harnessing the Power of Natural Science Collections"
   description: |      # required
-    Forth beginning form dry thing. Form seed void likeness darkness light. Can't created third upon spirit fruitful hath likeness their. Replenish saw female night they're you blessed all greater cattle, grass god fifth you're. Above wherein replenish face multiply male every. Own hath lights under creeping.
+    DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
   # img required
   background: https://data.nhm.ac.uk/media/d9850154-9e45-426c-8712-d030da3c1c00
   imageLicense: |
@@ -66,5 +66,5 @@ herbariumImageExample:
   href: /about
   cta:
   - text: Download report
-    href: http://example.com
+    href: https://www.dissco-uk.org/sites/default/files/2022-07/Harnessing%20the%20Power%20of%20Natural%20Science%20Collections.pdf
     isPrimary: true

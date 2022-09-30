@@ -3,24 +3,23 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Partners
+  - name: Project Website
     links:
-    - text: Name of project partner 1
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
-
+    - text: DiSSCo UK
+      href: https://dissco-uk.org
+ 
   - name: Code
     description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
+      This project is open source - see our [GitHub](https://github.com/gbif/hp-uk-collections) page
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
-    connectIcons: true
+      dissco-uk@nhm.ac.uk
+      * DiSSCo UK,
+      * Natural History Museum
+      * Cromwell Road,
+      * London SW7 5BD
+   # connectIcons: true - use this to add twitter icon
 
   # EXAMPLE
   #- name: Group name
