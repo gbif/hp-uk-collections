@@ -14,7 +14,7 @@ cta:
   - text: Explore Institutions
     href: /institution/search
   - text: About
-    href: /about
+    href: https://www.dissco-uk.org/about
 permalink: /
 composition:
   - type: heroImage # the block type

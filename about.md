@@ -6,8 +6,9 @@ background: /assets/images/rocks.png
 imageLicense: |
   None for this image, but normally you would provide one here
 height: 70vh
+published: false
 ---
-
+#This page will not be published, instead 'about' links to the dissco-uk.org website (so we don't have to maintain two pages). This file has been kept in case we want to add it back later.
 ## Procris quippe mentior urbes ubi
 
 Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne

@@ -1,7 +1,7 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
 - text: About
-  href: /about
+  href: https://www.dissco-uk.org/about
 - text: Explore
   menu: 
   - text: Specimens
