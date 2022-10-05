@@ -27,32 +27,32 @@ couldBeAnyName:
       href: /about
       # img required
       background: /assets/images/spirit.jpg
-      imageLicense: None for this image, but normally you would provide one here
+      imageLicense: Copyright Trustees of the Natural History Museum
       # categories: [drawings] # optional
     - title: Fly moving land # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
       background: /assets/images/beetle.jpg
-      imageLicense: None for this image, but normally you would provide one here
+      imageLicense: Copyright Trustees of the Natural History Museum
     - title: Fruitful replenish # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
       background: /assets/images/slides.png
-      imageLicense: None for this image, but normally you would provide one here
+      imageLicense: Copyright Trustees of the Natural History Museum
     - title: Land man dry # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
       background: /assets/images/butterfly.jpg
-      imageLicense: None for this image, but normally you would provide one here
+      imageLicense: Copyright Trustees of the Natural History Museum
     - title: Abundantly light years # required
       description: |      # required
         Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
       href: /about
       background: /assets/images/herbarium.jpg
-      imageLicense: None for this image, but normally you would provide one here
+      imageLicense: Copyright Trustees of the Natural History Museum
 
 herbariumImageExample:
   reverse: false
