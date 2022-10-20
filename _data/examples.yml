@@ -4,11 +4,11 @@ stats:
   # description: |      # required
   #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
   features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true">642</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true&active=true"></span>
       description: Institutions
       background: /assets/images/institutions_small.jpg
       href: /institution/search
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true">45</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true&active=true"></span>
       description: Collections
       background: /assets/images/collections_small.jpg
       href: /collection/search

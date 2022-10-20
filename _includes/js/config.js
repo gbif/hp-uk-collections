@@ -89,7 +89,8 @@ var siteConfig = {
     excludedFilters: ['countrySingleGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
-      country: "GB"
+      country: "GB",
+	  active: true
     }
   },
   institution: {
@@ -97,7 +98,8 @@ var siteConfig = {
     excludedFilters: ['countrySingleGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
-      country: "GB"
+      country: "GB",
+	  active: true
     }
   },
   apiKeys: {
