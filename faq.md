@@ -21,6 +21,7 @@ layout: default
 
 ## What data is included on this site?
 high level explanation of what GBIF is, what GrSciColl and that we are including data from UK publishers. Mention that Institution page uses GrSciColl, and Specimen page uses GBIF data (we will probably delete collections info so don't mention).
+testatat
 
 ## What filters have been applied to the data included on the specimen page?
 explanation of the basis of record filters (material sample, fossil sample etc)
