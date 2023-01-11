@@ -2,7 +2,7 @@
 lang-ref: home
 layout: home
 klass: home
-title: UK Collections Portal
+title: UK Natural Sciences Collections Portal
 description: Discover digitised specimens from UK natural sciences collections
 background: /assets/images/sample_image.png
 imageLicense: None for this image, but normally you would provide one here
