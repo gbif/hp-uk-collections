@@ -20,12 +20,10 @@ cta:
 permalink: /
 composition:
   - type: heroImage # the block type
-  - type: stats
-    data: examples.stats
-  - type: split
-    data: examples.herbariumImageExample
-  - type: features
-    data: examples.couldBeAnyName
+  #- type: floatingText
+   # data: examples.disscoBlueprint
+  - type: product
+    data: examples.disscoDashboard
 ---
 
 Edit `/home.md` to change the text.
