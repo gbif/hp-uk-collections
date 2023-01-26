@@ -1,70 +1,81 @@
-stats:
-  klass: contentTypesStat
-  # title: "type: stats"
-  # description: |      # required
-  #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
-  features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true&active=true"></span>
-      description: Institutions
-      background: /assets/images/institutions_small.jpg
-      href: /institution/search
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true&active=true"></span>
-      description: Collections
-      background: /assets/images/collections_small.jpg
-      href: /collection/search
-    - title: 10 million+
-      description: Digitised Specimens
-      background: /assets/images/specimen_small.jpg
-      href: /specimen/search
-
-couldBeAnyName:
-  title: Featured Collections
-  #description: Uncomment this to add text below title    
-  features:
-    - title: Abundantly light years # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      # img required
-      background: /assets/images/spirit.jpg
-      imageLicense: Copyright Trustees of the Natural History Museum
-      # categories: [drawings] # optional
-    - title: Fly moving land # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/beetle.jpg
-      imageLicense: Copyright Trustees of the Natural History Museum
-    - title: Fruitful replenish # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/slides.png
-      imageLicense: Copyright Trustees of the Natural History Museum
-    - title: Land man dry # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/butterfly.jpg
-      imageLicense: Copyright Trustees of the Natural History Museum
-    - title: Abundantly light years # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/herbarium.jpg
-      imageLicense: Copyright Trustees of the Natural History Museum
-
-herbariumImageExample:
+disscoBlueprint:
   reverse: false
-  title: "DiSSCo UK: Harnessing the Power of Natural Science Collections"
+  title: "Harnessing the Power of Natural Science Collections"
   description: |      # required
     DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
-  # img required
-  background: https://data.nhm.ac.uk/media/d9850154-9e45-426c-8712-d030da3c1c00
-  imageLicense: |
-    *Polyptychodon* Owen, 1841 collected in United Kingdom of Great Britain and Northern Ireland. [See full record](/specimen/search?entity=1057252794&view=TABLE) (licensed under http://creativecommons.org/licenses/by/4.0/)
-  href: /about
   cta:
   - text: Download report
     href: https://www.dissco-uk.org/sites/default/files/2022-07/Harnessing%20the%20Power%20of%20Natural%20Science%20Collections.pdf
     isPrimary: true
+    
+disscoDashboard:
+  reverse: false
+  title: "Harnessing the Power of Natural Science Collections"
+  description: |      # required
+    DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
+  # img required
+  background: /assets/images/dissco_map.png
+  imageLicense: |
+    *Polyptychodon* Owen, 1841 collected in United Kingdom of Great Britain and Northern Ireland. [See full record](/specimen/search?entity=1057252794&view=TABLE) (licensed under http://creativecommons.org/licenses/by/4.0/)
+  #href: /about
+  cta:
+  - text: Download report
+    href: https://www.dissco-uk.org/sites/default/files/2022-07/Harnessing%20the%20Power%20of%20Natural%20Science%20Collections.pdf
+    isPrimary: true
+
+#Examples below, not in use. See https://hp-theme.gbif-staging.org/layout/compose for layout options
+#stats:
+ # klass: contentTypesStat
+  # title: "type: stats"
+  # description: |      # required
+  #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
+ # features:
+  #  - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?country=GB&displayOnNHCPortal=true&active=true"></span>
+  #    description: Institutions
+   #   background: /assets/images/institutions_small.jpg
+   #   href: /institution/search
+   # - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?country=GB&displayOnNHCPortal=true&active=true"></span>
+   #   description: Collections
+    #  background: /assets/images/collections_small.jpg
+    #  href: /collection/search
+    #- title: 10 million+
+    #  description: Digitised Specimens
+    #  background: /assets/images/specimen_small.jpg
+     # href: /specimen/search
+
+#couldBeAnyName:
+ # title: Featured
+  #description: Uncomment this to add text below title    
+#  features:
+ #   - title: DiSSCo UK Blueprint # required
+  #    description: |      # required
+   #     DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
+   #   href: /about
+      # img required
+    #  background: /assets/images/dissco_map.png
+   #   imageLicense: Copyright Trustees of the Natural History Museum
+      # categories: [drawings] # optional
+ #   - title: DiSSCo UK Dashboard # required
+  #    description: |      # required
+        
+   #   href: https://app.powerbi.com/view?r=eyJrIjoiMTA4ZDRkYTktMGU5ZS00ZTM0LTkzMTktZjdkZDZiMGEwZDY0IiwidCI6IjczYTI5YzAxLTRlNzgtNDM3Zi1hMGQ0LWM4NTUzZTE5NjBjMSIsImMiOjh9
+    #  background: /assets/images/beetle.jpg
+     # imageLicense: Copyright Trustees of the Natural History Museum
+   # - title: Fruitful replenish # required
+    #  description: |      # required
+    #    Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+    #  href: /about
+    #  background: /assets/images/slides.png
+    #  imageLicense: Copyright Trustees of the Natural History Museum
+   # - title: Land man dry # required
+    #  description: |      # required
+    #    Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+    #  href: /about
+    #  background: /assets/images/butterfly.jpg
+    #  imageLicense: Copyright Trustees of the Natural History Museum
+   # - title: Abundantly light years # required
+    #  description: |      # required
+     #   Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+     # href: /about
+     # background: /assets/images/herbarium.jpg
+     # imageLicense: Copyright Trustees of the Natural History Museum

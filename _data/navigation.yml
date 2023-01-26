@@ -1,19 +1,11 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: About
-  href: https://www.dissco-uk.org/about
-- text: Explore
-  menu: 
-  - text: Specimens
-    href: /specimen/search
-  - text: Institutions
-    href: /institution/search
-  - text: Collections
-    href: /collection/search
-- text: DiSSCo UK
-  href: https://www.dissco-uk.org
-- text: News
-  href: https://www.dissco-uk.org/news
+- text: FAQs
+  href: /faq
+- text: Specimens
+  href: /specimen/search
+- text: Institutions
+  href: /institution/search
   
   
   #Links below to guidance for updating this site.
