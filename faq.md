@@ -58,4 +58,4 @@ Observational data can be found on the [National Biodiversity Network (NBN) port
 Fossil specimens which have been published to GBIF are included on this portal. Rocks, minerals, cores, meteorites and other geological material are not included on GBIF. We are working with the Earth Sciences community in the UK to scope out the requirements for a portal for Earth Science collections data. If you would like to be involved, please contact dissco-uk@nhm.ac.uk.
 
 ### How do I contact you?
-Please email us at dissco-uk@nhm.ac.uk. 
+Please email us at dissco-uk@nhm.ac.uk. You can also raise an issue on [our GitHub page](https://github.com/gbif/hp-uk-collections/issues) if you spot something on the site that needs updating. 
