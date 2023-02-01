@@ -118,6 +118,7 @@ var siteConfig = {
     }
   },
   messages: {
-    "catalogues.occurrences": "Specimens"
+    "catalogues.occurrences": "Specimens",
+    "filters.city.name": "City/town"
   }
 };
