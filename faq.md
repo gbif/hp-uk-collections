@@ -17,13 +17,13 @@ layout: default
 </details>
 
 ### What is DiSSCo UK?
-[DiSSCo UK](www.dissco-uk.org) is a partnership of institutions working together to harness the full potential of natural science collections through digitisation.  
+[DiSSCo UK](https://www.dissco-uk.org) is a partnership of institutions working together to harness the full potential of natural science collections through digitisation.  
 
 This portal enables reliable knowledge and evidence about the natural world to be physically and digitally open, accessible, and usable for all forms of research and innovation.
 
 
 ### What data is included on this site?
-[GBIF](www.gbif.org) (the Global Biodiversity Information Facility) is an open access infrastructure that aggregates biodiversity data from across the globe. This portal uses data uploaded to GBIF.
+[GBIF](https://www.gbif.org) (the Global Biodiversity Information Facility) is an open access infrastructure that aggregates biodiversity data from across the globe. This portal uses data uploaded to GBIF.
 
 The ‘Specimens’ page provides specimen data uploaded to GBIF from UK-based data publishers with an active [GRSciColl](https://www.gbif.org/grscicoll) (The Global Registry of Scientific Collections) record.  
 
@@ -35,7 +35,7 @@ This portal is only comprised of data from natural science collections; for reco
 Data is included if it is published by a UK based GBIF publisher with an active GRSciColl record.  
 
 ### Why do some non-UK institutions appear on the specimen pages?
-Some UK based GBIF publishers have datasets which include specimens from non-UK institutions. For example, this [*Protomyctophum tenisoni* specimen](https://uk-collections.hp.gbif-staging.org/specimen/search?entity=3864002911&institutionKey=6a6ac6c5-1b8a-48db-91a2-f8661274ff80)
+Some UK based GBIF publishers have datasets which include specimens from non-UK institutions. For example, this [*Protomyctophum tenisoni* specimen](/specimen/search?entity=3864002911&institutionKey=6a6ac6c5-1b8a-48db-91a2-f8661274ff80)
 from the Museum national d'Histoire naturelle in Paris can be found on this portal. This specimen was published by the Scientific Committee on Antarctic Research, which is based in the UK. They publish specimen data from Myctobase, a circumpolar database of mesopelagic fishes, which includes specimens from institutions in many different countries. We are looking at ways to exclude these kinds of specimens from our portal in future.
 
 ### How do I add or update information about my institution?
