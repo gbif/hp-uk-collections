@@ -41,21 +41,21 @@ from the Museum national d'Histoire naturelle in Paris can be found on this port
 ### How do I add or update information about my institution?
 To add your institution to the portal, you must create a GRSciColl record, which you can do [here](https://registry.gbif.org/institution/create).  
 
-To update your existing institutional information, search for your institutional page on the [GBIF Registry](https://registry.gbif.org/institution/search?country=GB). On the entry you want to edit, press the ‘Suggest’ button at the top of the page and update the chosen fields. Once you have pressed ‘Save’, we will be able to accept the changes. Alternatively, you can email dissco-uk@nhm.ac.uk with the adjustments you want made.
+To update your existing institutional information, search for your institutional page on the [GBIF Registry](https://registry.gbif.org/institution/search?country=GB). On the entry you want to edit, press the ‘Suggest’ button at the top of the page and update the chosen fields. Once you have pressed ‘Save’, we will be able to accept the changes. Alternatively, you can email [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk) with the adjustments you want made.
 
 ### Why are there fewer institutions on the DiSSCo UK dashboard compared to those listed on this site?
 Some GRSciColl records may be out of date, with institutions potentially merging or becoming inactive. If you know a collection is no longer active or the information provided is incorrect, please let us know as we intend GRSciColl to be an up-to-date source for information on UK natural science collections.  
 
-In addition, not all UK institutions completed the collections survey distributed in 2021. If you would like your collections data to be included in the [dashboard](https://bit.ly/dissco-uk), please contact dissco-uk@nhm.ac.uk to be sent the survey.
+In addition, not all UK institutions completed the collections survey distributed in 2021. If you would like your collections data to be included in the [dashboard](https://bit.ly/dissco-uk), please contact [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk) to be sent the survey.
 
 ### How do I request that my institution's details are removed from this site?
-Please contact dissco-uk@nhm.ac.uk to remove your institutional data from the portal. Institutions excluded from the portal will be listed in the ‘What filters have been applied’ question to inform all users of missing data/data caveats.
+Please contact [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk) to remove your institutional data from the portal. Institutions excluded from the portal will be listed in the ‘What filters have been applied’ question to inform all users of missing data/data caveats.
 
 ### How do I access observation data from the UK?
 Observational data can be found on the [National Biodiversity Network (NBN) portal](https://nbnatlas.org/).
 
 ### How do I access information about geological specimens held in UK collections?
-Fossil specimens which have been published to GBIF are included on this portal. Rocks, minerals, cores, meteorites and other geological material are not included on GBIF. We are working with the Earth Sciences community in the UK to scope out the requirements for a portal for Earth Science collections data. If you would like to be involved, please contact dissco-uk@nhm.ac.uk.
+Fossil specimens which have been published to GBIF are included on this portal. Rocks, minerals, cores, meteorites and other geological material are not included on GBIF. We are working with the Earth Sciences community in the UK to scope out the requirements for a portal for Earth Science collections data. If you would like to be involved, please contact [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk).
 
 ### How do I contact you?
-Please email us at dissco-uk@nhm.ac.uk. You can also raise an issue on [our GitHub page](https://github.com/gbif/hp-uk-collections/issues) if you spot something on the site that needs updating. 
+Please email us at [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk). You can also raise an issue on [our GitHub page](https://github.com/gbif/hp-uk-collections/issues) if you spot something on the site that needs updating. 
