@@ -100,7 +100,12 @@ var siteConfig = {
       displayOnNHCPortal: true,
       country: "GB",
 	  active: true
-    }
+    },
+    mapSettings: {
+      lat: 54.89,
+      lng: -3.86,
+      zoom: 5.4
+    },
   },
   apiKeys: {
     maptiler: "wFxbBf3Tv2e75QQfYOOW",
