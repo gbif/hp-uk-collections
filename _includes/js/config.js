@@ -99,9 +99,10 @@ var siteConfig = {
     rootFilter: {
       displayOnNHCPortal: true,
       country: "GB",
-	  active: true
+      active: true
     },
-    mapSettings: {
+    mapSettings: {,
+      enabled: false,
       lat: 54.89,
       lng: -3.86,
       zoom: 5.4
