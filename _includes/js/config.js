@@ -101,7 +101,7 @@ var siteConfig = {
       country: "GB",
       active: true
     },
-    mapSettings: {,
+    mapSettings: {
       enabled: false,
       lat: 54.89,
       lng: -3.86,
