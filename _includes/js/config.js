@@ -103,8 +103,8 @@ var siteConfig = {
     }
   },
   apiKeys: {
-    maptiler: "wFxbBf3Tv2e75QQfYOOW",
-    mapbox: "pk.eyJ1IjoiZ2JpZiIsImEiOiJja3VmZm50Z3kxcm1vMnBtdnBmeGd5cm9hIn0.M2z2n9QP9fRHZUCw9vbgOA"
+    maptiler: "2RcTol2NPTFHDIGb3CDP",
+    mapbox: "pk.eyJ1IjoiZGlzc2NvdWsiLCJhIjoiY2xpd3h5dWk1MDJuaDNxcWV0cGExM2JyMCJ9.EHSAxoecThELIUWq84M4wg"
   },
   maps: {
     // locale: 'ja',
