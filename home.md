@@ -20,7 +20,7 @@ composition:
   #- type: floatingText
    # data: examples.disscoBlueprint
   - type: product
-    data: examples.disscoDashboard
+    data: examples.disscoBlueprint
 ---
 
 

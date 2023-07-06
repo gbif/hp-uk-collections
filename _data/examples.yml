@@ -3,16 +3,6 @@ disscoBlueprint:
   title: "Harnessing the Power of Natural Science Collections"
   description: |      # required
     DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
-  cta:
-  - text: Download report
-    href: https://www.dissco-uk.org/sites/default/files/2022-07/Harnessing%20the%20Power%20of%20Natural%20Science%20Collections.pdf
-    isPrimary: true
-    
-disscoDashboard:
-  reverse: false
-  title: "Harnessing the Power of Natural Science Collections"
-  description: |      # required
-    DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
   # img required
   background: /assets/images/dissco_map.png
   cta:
@@ -21,6 +11,18 @@ disscoDashboard:
     isPrimary: true
 
 #Examples below, not in use. See https://hp-theme.gbif-staging.org/layout/compose for layout options
+#dissco:
+#  reverse: false
+ # title: "Harnessing the Power of Natural Science Collections"
+ # description: |      # required
+  #  DiSSCo UK is harnessing the full potential of the UK's natural science collections by making them physically and digitally open, accessible, and usable for all forms of research and innovation. The DiSSCo UK Blueprint describes how the consortium aims to scale up digitisation and cooperation through a national infrastructure programme.
+  #cta:
+ # - text: Download report
+ #   href: https://www.dissco-uk.org/sites/default/files/2022-07/Harnessing%20the%20Power%20of%20Natural%20Science%20Collections.pdf
+  #  isPrimary: true
+    
+
+
 #stats:
  # klass: contentTypesStat
   # title: "type: stats"

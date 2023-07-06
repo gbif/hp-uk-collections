@@ -7,6 +7,13 @@ $link: #4787fb;
   margin: 0 12px;
 }
 
+.product{
+  .feature-img{
+    padding: 15px;
+    background-origin: content-box;
+  }
+}
+
 @media (min-width: 1050px) {
   .home {
     .floatingHero .feature-title {
