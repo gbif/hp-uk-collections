@@ -41,7 +41,19 @@ from the Museum national d'Histoire naturelle in Paris can be found on this port
 ### How do I add or update information about my institution?
 To add your institution to the portal, you must create a GRSciColl record, which you can do [here](https://registry.gbif.org/institution/create).  
 
-To update your existing institutional information, search for your institutional page on the [GBIF Registry](https://registry.gbif.org/institution/search?country=GB). On the entry you want to edit, press the ‘Suggest’ button at the top of the page and update the chosen fields. Once you have pressed ‘Save’, we will be able to accept the changes. Alternatively, you can email [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk) with the adjustments you want made.
+There are two ways you can update your existing institutional information
+
+1. Search for your institution on the [DiSSCo UK Portal](/institution/search), and then click 'Edit' on the right hand side. This will take you through to the GrSciColl edit page, where you can suggest changes.
+
+2. Search for your institutional page on the [GBIF Registry](https://registry.gbif.org/institution/search?country=GB). On the entry you want to edit, press the ‘Suggest’ button at the top of the page and update the chosen fields. 
+
+Once you have pressed ‘Save’, the suggestions will be forwarded to the DiSSCo UK team and we will be able to accept the changes. Alternatively, you can email [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk) with the adjustments you want made.
+
+
+### My institution doesn't appear in the correct location on your institution map, how do I fix this?
+The location of your institution on the [map](/institution/search) is taken from the latitude and longitude information in your [GrSciColl](https://registry.gbif.org/) record. Check that the details are correct, and update the information if not.* If you aren't sure what your lat/long co-ordinates are, or if the details are correct and it still isn't showing in the right place, you can email [dissco-uk@nhm.ac.uk](mailto:dissco-uk@nhm.ac.uk),  and we will be able to help.
+
+*see the question above for details on how to update your GrSciColl record.
 
 ### Why are there fewer institutions on the DiSSCo UK dashboard compared to those listed on this site?
 Some GRSciColl records may be out of date, with institutions potentially merging or becoming inactive. If you know a collection is no longer active or the information provided is incorrect, please let us know as we intend GRSciColl to be an up-to-date source for information on UK natural science collections.  
