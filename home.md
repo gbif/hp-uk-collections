@@ -16,11 +16,10 @@ cta:
  
 permalink: /
 composition:
-  - type: heroImage # the block type
-  #- type: floatingText
-   # data: examples.disscoBlueprint
+  - type: heroImage
   - type: product
     data: examples.disscoBlueprint
+    # More blocks can be added here
 ---
 
 
