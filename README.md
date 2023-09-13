@@ -8,4 +8,6 @@ This Jekyll website, **[hp-uk-collections](https://uk-collections.hp.gbif.org/)*
 
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
+Staging site: https://uk-collections.hp.gbif-staging.org/ 
+
 > Powered by [GBIF](https://www.gbif.org/)
