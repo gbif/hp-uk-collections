@@ -2,7 +2,7 @@
 lang-ref: home
 layout: home
 klass: home
-title: UK Natural Sciences <br> Collections Portal
+title: The Distributed System of <br> Scientific Collections 
 description: Discover digitised specimens from UK natural sciences collections
 background: /assets/images/sample_home.JPG
 imageLicense: Copyright Trustees of the Natural History Museum
