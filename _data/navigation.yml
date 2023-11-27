@@ -1,15 +1,22 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: FAQs
-  href: /faq
-- text: Specimens
+- text: About
+  href: /about
+- text: UK Specimens
   href: /specimen/search
-- text: Institutions
+- text: UK Institutions
   href: /institution/search
 - text: Gallery
   href: /specimen/search?view=GALLERY
 - text: Map
   href: /specimen/search?view=MAP
+- text: News
+  href: /news
+- text: Resources
+  href: /resources
+- text: FAQs
+  href: /faq
+
   
   #Links below include guidance for updating this site.
  # - text: Editor links
