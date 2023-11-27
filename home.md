@@ -7,12 +7,12 @@ description: Discover digitised specimens from UK natural sciences collections
 background: /assets/images/sample_home.JPG
 imageLicense: Copyright Trustees of the Natural History Museum
 height: 100vh
-cta:
+<!--cta:
   - text: Explore Specimens
     href: /specimen/search
     isPrimary: true
   - text: Explore Institutions
-    href: /institution/search
+    href: /institution/search -->
  
 permalink: /
 composition:
