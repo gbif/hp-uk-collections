@@ -25,7 +25,7 @@ permalink: /
 composition:
   - type: heroImage
   - type: features
-    data: features
+    data: features.yml
 ---
 
 
