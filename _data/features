@@ -17,3 +17,4 @@ Digitising the Mollusca type specimens from the UK and Ireland (2016-2023) # req
     description: |      # required
       All species – fossil or living – are defined by “Type Specimens” in museum collections. Many of the fossil species in the UK were described in the nineteenth century, and the current location of their types may now be poorly known.
     background: /assets/img/Haeckel_Caulerpa_racemosa_(uvifera).jpeg
+    categories: [Technology]
