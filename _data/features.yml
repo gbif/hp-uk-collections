@@ -23,3 +23,10 @@ features:
     description: |      # required
       With over 2.5 million insect specimens in our natural science collection, National Museum Scotland (NMS) has been fortunate to receive many important collections over the years, donated by prominent naturalists. One of great significance to us is Edward (Ted) Pelham-Clinton, who devoted his spare time to collecting and recording, compiling one of the most comprehensive collections of British and Irish moths
     categories: [Citizen science]
+ <!-- - preTitle: News -->  # optional
+    title: Education: Kernels of Wisdom
+    href: /_posts/2022-04-06-kernels-of-wisdom
+    description: |      # required
+     The Botany Bay project set out to “make use of the migration histories of plants and crops, and their Indigenous cultural heritage in relation to ecology and reciprocity, as a way to stimulate young people to explore new ways of living”.
+    background: assets/images/Blue corn_Zea mays_Belonging.png
+    categories: [Outreach, Science communication]
