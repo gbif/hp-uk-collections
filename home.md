@@ -20,6 +20,12 @@ composition:
   - type: product
     data: examples.disscoBlueprint
     # More blocks can be added here
+
+permalink: /
+composition:
+  - type: heroImage
+  - type: features
+    data: features
 ---
 
 
