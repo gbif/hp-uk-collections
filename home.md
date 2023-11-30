@@ -6,7 +6,7 @@ title: The Distributed System of <br> Scientific Collections
 description: Discover digitised specimens from UK natural sciences collections
 background: /assets/images/sample_home.JPG
 imageLicense: Copyright Trustees of the Natural History Museum
-height: 100vh
+height: 90vh
 <!--cta:
   - text: Explore Specimens
     href: /specimen/search
