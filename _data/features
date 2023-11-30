@@ -9,7 +9,7 @@ Digitising the Mollusca type specimens from the UK and Ireland (2016-2023) # req
       Specialist malacological curators from Amgueddfa Cymru -National Museum Wales (ACNMW) and the Natural History Museum, London, funded by the John Ellerman Foundation are developing a jointly held, universally accessible resource connecting the Mollusca type specimens of national and regional UK museums for the first time.
     # img required
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
-    href: /about  # where it links to
+    href: /Type Specimens: Digitising the Mollusca type specimens from the UK and Ireland (2016-2023) # where it links to
     categories: [Digital collections]
  <!-- - preTitle: News -->  # optional
     title: 3D Digitisation: GB3D – an open resource for education, research and the public
