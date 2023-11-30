@@ -17,3 +17,9 @@ features:
       All species – fossil or living – are defined by “Type Specimens” in museum collections. Many of the fossil species in the UK were described in the nineteenth century, and the current location of their types may now be poorly known.
     background: assets/images/P835239.jpg
     categories: [Technology]
+ <!-- - preTitle: News -->  # optional
+    title: Citizen science: Moths and the Edward Pelham Clinton collection
+    href: /_posts/2022-04-27-moths-and-the-edward-pelham-clinton-collection
+    description: |      # required
+      With over 2.5 million insect specimens in our natural science collection, National Museum Scotland (NMS) has been fortunate to receive many important collections over the years, donated by prominent naturalists. One of great significance to us is Edward (Ted) Pelham-Clinton, who devoted his spare time to collecting and recording, compiling one of the most comprehensive collections of British and Irish moths
+    categories: [Citizen science]
