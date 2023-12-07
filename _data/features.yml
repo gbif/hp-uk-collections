@@ -1,32 +1,43 @@
 title: "Latest news"
-<!-- description: |
-  See [`_data/compose/features.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/features.yml) for the content structure. -->
+description: Latest DiSSCoUK news
 features:
-<!--  - preTitle: News --> # optional 
-    title: Type Specimens: Digitising the Mollusca type specimens from the UK and Ireland (2016-2023) # required
-    description: |      # required
-      Specialist malacological curators from Amgueddfa Cymru -National Museum Wales (ACNMW) and the Natural History Museum, London, funded by the John Ellerman Foundation are developing a jointly held, universally accessible resource connecting the Mollusca type specimens of national and regional UK museums for the first time.
-    # img required
+  - preTitle: News
+    title: "Type Specimens: Digitising the Mollusca type specimens from the UK and Ireland (2016-2023)"
+    description: |
+      Specialist malacological curators from Amgueddfa Cymru -National Museum Wales
+      (ACNMW) and the Natural History Museum, London, funded by the John Ellerman
+      Foundation are developing a jointly held, universally accessible resource
+      connecting the Mollusca type specimens of national and regional UK museums for the
+      first time.
     background: assets/images/Trilobite.jpg
     href: _posts/2022-06-15-digitising-mollusca-type-specimens
-    categories: [Digital collections]
- <!-- - preTitle: News -->  # optional
-    title: 3D Digitisation: GB3D – an open resource for education, research and the public
-    href: /_posts/2022-04-30-gb3d-an-open-source-for-education-research-and-the-public 
-    description: |      # required
-      All species – fossil or living – are defined by “Type Specimens” in museum collections. Many of the fossil species in the UK were described in the nineteenth century, and the current location of their types may now be poorly known.
+    categories: [ "Digital collections" ]
+  - preTitle: News
+    title: "3D Digitisation: GB3D – an open resource for education, research and the public"
+    href: /_posts/2022-04-30-gb3d-an-open-source-for-education-research-and-the-public
+    description: |
+      All species – fossil or living – are defined by “Type Specimens” in museum
+      collections. Many of the fossil species in the UK were described in the nineteenth
+      century, and the current location of their types may now be poorly known.
     background: assets/images/P835239.jpg
-    categories: [Technology]
- <!-- - preTitle: News -->  # optional
-    title: Citizen science: Moths and the Edward Pelham Clinton collection
+    categories: [ Technology ]
+  - preTitle: News
+    title: "Citizen science: Moths and the Edward Pelham Clinton collection"
     href: /_posts/2022-04-27-moths-and-the-edward-pelham-clinton-collection
-    description: |      # required
-      With over 2.5 million insect specimens in our natural science collection, National Museum Scotland (NMS) has been fortunate to receive many important collections over the years, donated by prominent naturalists. One of great significance to us is Edward (Ted) Pelham-Clinton, who devoted his spare time to collecting and recording, compiling one of the most comprehensive collections of British and Irish moths
-    categories: [Citizen science]
- <!-- - preTitle: News -->  # optional
-    title: Education: Kernels of Wisdom
+    description: |
+      With over 2.5 million insect specimens in our natural science collection, National
+      Museum Scotland (NMS) has been fortunate to receive many important collections
+      over the years, donated by prominent naturalists. One of great significance to us
+      is Edward (Ted) Pelham-Clinton, who devoted his spare time to collecting and
+      recording, compiling one of the most comprehensive collections of British and
+      Irish moths
+    categories: [ "Citizen science" ]
+  - preTitle: News
+    title: "Education: Kernels of Wisdom"
     href: /_posts/2022-04-06-kernels-of-wisdom
-    description: |      # required
-     The Botany Bay project set out to “make use of the migration histories of plants and crops, and their Indigenous cultural heritage in relation to ecology and reciprocity, as a way to stimulate young people to explore new ways of living”.
-    background: assets/images/Blue corn_Zea mays_Belonging.png
-    categories: [Outreach, Science communication]
+    description: |
+      The Botany Bay project set out to “make use of the migration histories of plants
+      and crops, and their Indigenous cultural heritage in relation to ecology and
+      reciprocity, as a way to stimulate young people to explore new ways of living”.
+    background: "assets/images/Blue corn_Zea mays_Belonging.png"
+    categories: [ "Outreach", "Science communication" ]
