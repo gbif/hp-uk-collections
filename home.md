@@ -6,13 +6,15 @@ title: The Distributed System of <br> Scientific Collections
 description: Discover digitised specimens from UK natural sciences collections
 background: /assets/images/sample_home.JPG
 imageLicense: Copyright Trustees of the Natural History Museum
-height: 100vh
-cta:
+height: 90vh
+<!--cta:
   - text: Explore Specimens
     href: /specimen/search
     isPrimary: true
   - text: Explore Institutions
-    href: /institution/search
+    href: /institution/search -->
+
+
  
 permalink: /
 composition:
@@ -20,6 +22,12 @@ composition:
   - type: product
     data: examples.disscoBlueprint
     # More blocks can be added here
+
+permalink: /
+composition:
+  - type: heroImage
+  - type: features
+    data: features.yml
 ---
 
 
