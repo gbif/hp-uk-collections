@@ -2,7 +2,7 @@
 lang-ref: about
 title: About
 description: DiSSCo facilitates innovation, scientific discovery and decision-making
-background: /assets/images/about_page_background.png
+background: /assets/images/about/header.png
 layout: compose
 klass: compositionBlocks
 height: 40vh
