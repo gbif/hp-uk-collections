@@ -8,14 +8,6 @@ background: /assets/images/sample_home.JPG
 imageLicense: Copyright Trustees of the Natural History Museum
 height: 90vh
 permalink: /
-
-#cta:
-#  - text: Explore Specimens
-#    href: /specimen/search
-#    isPrimary: true
-#  - text: Explore Institutions
-#    href: /institution/search
-
 composition:
   - type: heroImage
   - type: product
