@@ -49,23 +49,23 @@ numbers:
   features:
     - title: "100"
       description: Participating in over 100 funded projects
-      background: /assets/images/aboutNumberBgs/fact-wood-bg.png
+      background: /assets/images/about/numbers/fact-wood-bg.png
     - title: "120+"
       description: An agreement among 120+ institutions
-      background: /assets/images/aboutNumberBgs/fact-greensand-bg.png
+      background: /assets/images/about/numbers/fact-greensand-bg.png
     - title: "800,000"
       description: Reducing the number of specimens (currently 800,000) loaned each year
-      background: /assets/images/aboutNumberBgs/fact-bluesand-bg.png
+      background: /assets/images/about/numbers/fact-bluesand-bg.png
     - title: "5,000"
       description: Bringing together 5,000 scientists
-      background: /assets/images/aboutNumberBgs/fact-green-bg.png
+      background: /assets/images/about/numbers/fact-green-bg.png
     - title: "21"
       description: Across 21 European countries
-      background: /assets/images/aboutNumberBgs/fact-bark-bg.png
+      background: /assets/images/about/numbers/fact-bark-bg.png
     - title: "1.5 bn"
       description: |
         A network of 1.5 billion specimens representing 80% of the world's species
-      background: /assets/images/aboutNumberBgs/fact-leaf-bg.png
+      background: /assets/images/about/numbers/fact-leaf-bg.png
 
 data:
   klass: about-data
@@ -75,13 +75,13 @@ data:
     already been developed within the global natural science collections community.
     All data generated through the network is both open and FAIR (Findable,
     Interoperable, Accessible and Reproducible).
-  background: /assets/images/fossil.png
+  background: /assets/images/about/fossil.png
   reverse: true
 
 partners:
   klass: about-partners
   title: DiSSCo UK Partners
-  background: /assets/images/shell_puzzle.png
+  background: /assets/images/about/shell_puzzle.png
   description: |
     [Birmingham Museums](https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery/)  
 
@@ -124,13 +124,13 @@ ahrcLogo:
   klass: about_ahrc_logo
   markdownContent: |
     <div>
-      <img src="/assets/images/ahrc_logo.png">
+      <img src="/assets/images/about/ahrc_logo.png">
     </div>
 
 resources:
   klass: about_resources
   height: 20vh
-  background: /assets/images/clay_banks.png
+  background: /assets/images/about/clay_banks.png
   title: Understand more about DiSSCo resources
   cta:
     - text: Resources
