@@ -11,7 +11,7 @@ map:
   background: /assets/images/dissco_map.png
   cta:
     - text: Download the booklet
-      href: assets/Harnessing the Power of Natural Science Collections.pdf
+      href: /assets/Harnessing the Power of Natural Science Collections.pdf
       isPrimary: true
   description: |
     DiSSCo UK seeks to become a one-stop, dynamic, openly available and easy-to-use
