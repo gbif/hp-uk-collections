@@ -1,0 +1,137 @@
+# data for the about page composed blocks
+
+summary:
+  description: |
+    There are an estimated 650 natural science collections in the UK and 94 of these
+    contributed to our 2022 survey to understand the size, diversity, origin an
+    current levels of digitisation. The UK holds more than 137 million specimens
+    recorded from 83 institutions and collected from across the world.
+
+map:
+  background: /assets/images/dissco_map.png
+  cta:
+    - text: Download the booklet
+      href: assets/Harnessing the Power of Natural Science Collections.pdf
+      isPrimary: true
+  description: |
+    DiSSCo UK seeks to become a one-stop, dynamic, openly available and easy-to-use
+    e-science infrastructure, integrating digital access to UK natural science
+    collections.
+    Through a hub and spoke model of digitisation at national, regional and local levels
+    DiSSCo will:
+      - Empower the UK network of collections through digitisation
+      - Enhance UK biodiversity and heritage information infrastructure
+      - Improve data quality
+      - Deliver relevant data
+
+benefits:
+  markdownContent: |
+    # Benefits of UK natural science collections
+    
+    ## Scientific Benefits
+    Natural science collections are a critical resource for scientists advancing
+    knowledge that informs challenging global issues including climate change,
+    biodiversity conservation, resourcing the green economy and our response to
+    pandemics such as COVID-19.
+    
+    ## Societal Benefits
+    Natural science collections connect and empower society, inspiring a lifelong love
+    of nature, are the source of educational material for generations and provide
+    communities with data and knowledge, as well as involving them in its creation and
+    interpretation.
+    
+    ## Economic Benefits
+    Digitisation of natural science digitisation has the potential to deliver a tenfold
+    return on investment, creating benefits in excess of £2 billion over 30 years.
+
+numbers:
+  title: DiSSCo by the Numbers
+  features:
+    - title: "100"
+      description: Participating in over 100 funded projects
+      background: /assets/images/aboutNumberBgs/fact-wood-bg.png
+    - title: "120+"
+      description: An agreement among 120+ institutions
+      background: /assets/images/aboutNumberBgs/fact-greensand-bg.png
+    - title: "800,000"
+      description: Reducing the number of specimens (currently 800,000) loaned each year
+      background: /assets/images/aboutNumberBgs/fact-bluesand-bg.png
+    - title: "5,000"
+      description: Bringing together 5,000 scientists
+      background: /assets/images/aboutNumberBgs/fact-green-bg.png
+    - title: "21"
+      description: Across 21 European countries
+      background: /assets/images/aboutNumberBgs/fact-bark-bg.png
+    - title: "1.5 bn"
+      description: |
+        A network of 1.5 billion specimens representing 80% of the world's species
+      background: /assets/images/aboutNumberBgs/fact-leaf-bg.png
+
+data:
+  klass: about-data
+  title: DiSSCo Data
+  description: |
+    DiSSCo UK will adopt the relatively mature data standards and technologies that have
+    already been developed within the global natural science collections community.
+    All data generated through the network is both open and FAIR (Findable,
+    Interoperable, Accessible and Reproducible).
+  background: /assets/images/fossil.png
+  reverse: true
+
+partners:
+  klass: about-partners
+  title: DiSSCo UK Partners
+  background: /assets/images/shell_puzzle.png
+  description: |
+    [Birmingham Museums](https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery/)  
+
+    [Bristol Museum & Art Gallery](https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery/)  
+
+    [British Geological Survey](https://www.bgs.ac.uk/)  
+
+    [Great North Museum](https://greatnorthmuseum.org.uk/)  
+
+    [Manchester Museum](https://www.museum.manchester.ac.uk/)  
+
+    [National Museum Wales](https://museum.wales/)  
+
+    [National Museums NI](https://www.nmni.com/Home.aspx)  
+
+    [National Museums Scotland](https://www.nms.ac.uk/)  
+
+    [Natural History Museum, London](https://www.nhm.ac.uk/)  
+
+    [Natural Sciences Collections Association](https://www.natsca.org/)  
+
+    [Oxford University Museum of Natural History](https://www.oumnh.ox.ac.uk/)  
+
+    [Royal Botanic Gardens Edinburgh](https://www.rbge.org.uk/)  
+
+    [Royal Botanic Gardens Kew](https://www.kew.org/)  
+
+    [University of Cambridge Museums](https://www.museums.cam.ac.uk/)
+
+acknowledgements:
+  markdownContent: |
+    # Acknowledgements
+
+    We would like to thank the Arts and Humanities Research Council (AHRC) for their
+    support and guidance in the preparation of this report (Grant number AH/W006715/1)
+    and especially thank the 94 UK natural science collections who generously provided
+    their time and data to develop the concept of DiSSCo UK.
+
+ahrcLogo:
+  klass: about_ahrc_logo
+  markdownContent: |
+    <div>
+      <img src="/assets/images/ahrc_logo.png">
+    </div>
+
+resources:
+  klass: about_resources
+  height: 20vh
+  background: /assets/images/clay_banks.png
+  title: Understand more about DiSSCo resources
+  cta:
+    - text: Resources
+      href: /resources
