@@ -11,5 +11,5 @@ permalink: /
 composition:
   - type: heroImage
   - type: product
-    data: examples.disscoBlueprint
+    data: home.blueprint
 ---
