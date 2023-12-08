@@ -7,8 +7,8 @@ $link: #4787fb;
   margin: 0 12px;
 }
 
-.product{
-  .feature-img{
+.product {
+  .feature-img {
     padding: 15px;
     background-origin: content-box;
   }
@@ -55,21 +55,22 @@ $link: #4787fb;
     .statistics-cards {
       justify-content: space-around;
     }
+
     .statistic {
       flex: 0 0 250px;
       width: 250px;
     }
-  
+
     .feature-img {
       height: 250px;
       width: 250px;
     }
-  
+
     .feature-title {
       font-size: 35px;
       margin: 0;
     }
-  
+
     .feature-description {
       font-size: 20px;
     }
@@ -81,21 +82,22 @@ $link: #4787fb;
     .statistics-cards {
       justify-content: space-around;
     }
+
     .statistic {
       flex: 0 0 200px;
       width: 200px;
     }
-  
+
     .feature-img {
       height: 200px;
       width: 200px;
     }
-  
+
     .feature-title {
       font-size: 35px;
       margin: 0;
     }
-  
+
     .feature-description {
       font-size: 20px;
     }
@@ -106,4 +108,22 @@ $link: #4787fb;
   article.feature {
     border-radius: 4px;
   }
+}
+
+/*
+About page styling.
+ */
+
+.about-data {
+  flex-direction: row-reverse;
+}
+
+.about_ahrc_logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about_resources .feature-title {
+  font-size: 2.5rem;
 }
