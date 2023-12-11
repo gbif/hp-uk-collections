@@ -3,6 +3,8 @@ title: "Citizen science: Moths and the Edward Pelham Clinton collection"
 date: 2022-04-27
 categories:
   - Citizen science
+# TODO: swap placeholder for proper image
+background: https://placehold.co/600x400
 ---
 
 **by Nick Fraser**
