@@ -11,3 +11,6 @@ blueprint:
     - text: Download report
       href: /assets/Harnessing the Power of Natural Science Collections.pdf
       isPrimary: true
+
+latest:
+  title: Latest news

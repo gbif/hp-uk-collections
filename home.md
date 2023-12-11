@@ -12,4 +12,6 @@ composition:
   - type: heroImage
   - type: product
     data: home.blueprint
+  - type: latestPosts
+    data: home.latest
 ---
