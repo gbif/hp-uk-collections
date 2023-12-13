@@ -127,3 +127,36 @@ About page styling.
 .about_resources .feature-title {
   font-size: 2.5rem;
 }
+
+/*
+Resources page styling.
+ */
+
+.resource-dashboard-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  height: 60vh;
+  width: 90vw;
+  margin-left: 5vw;
+  padding: 10px;
+}
+
+.resource-dashboard-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .resource-dashboard-left-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .resource-dashboard-left-description {
+  }
+}
+
+.resource-dashboard-right {
+  flex: 1;
+}

@@ -1,3 +1,21 @@
+dashboard:
+  klass: resource-dashboard-container
+  markdownContent: |
+    <div class="resource-dashboard-left">
+      <div class="resource-dashboard-left-title">
+        <p>DiSSCo facilitates innovation, scientific discovery and decision-making</p>
+      </div>
+      <div style="height: 2rem;"></div>
+      <div class="resource-dashboard-left-description">
+        <p>
+          Bringing collections together as a distributed, interoperable research
+          infrastructure, making them digitally open, accessible, and usable for all forms
+          of research and innovation
+        </p>
+      </div>
+    </div>
+    <iframe class="resource-dashboard-right" src="https://app.powerbi.com/view?r=eyJrIjoiMTA4ZDRkYTktMGU5ZS00ZTM0LTkzMTktZjdkZDZiMGEwZDY0IiwidCI6IjczYTI5YzAxLTRlNzgtNDM3Zi1hMGQ0LWM4NTUzZTE5NjBjMSIsImMiOjh9"></iframe>
+
 links:
   markdownContent: |
     # Links
