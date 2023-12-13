@@ -14,8 +14,6 @@ composition:
     data: about.map
   - type: markdown
     data: about.benefits
-  - type: stats
-    data: about.numbers
   - type: product
     data: about.data
   - type: product

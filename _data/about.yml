@@ -44,29 +44,6 @@ benefits:
     Digitisation of natural science digitisation has the potential to deliver a tenfold
     return on investment, creating benefits in excess of £2 billion over 30 years.
 
-numbers:
-  title: DiSSCo by the Numbers
-  features:
-    - title: "100"
-      description: Participating in over 100 funded projects
-      background: /assets/images/about/numbers/fact-wood-bg.png
-    - title: "120+"
-      description: An agreement among 120+ institutions
-      background: /assets/images/about/numbers/fact-greensand-bg.png
-    - title: "800,000"
-      description: Reducing the number of specimens (currently 800,000) loaned each year
-      background: /assets/images/about/numbers/fact-bluesand-bg.png
-    - title: "5,000"
-      description: Bringing together 5,000 scientists
-      background: /assets/images/about/numbers/fact-green-bg.png
-    - title: "21"
-      description: Across 21 European countries
-      background: /assets/images/about/numbers/fact-bark-bg.png
-    - title: "1.5 bn"
-      description: |
-        A network of 1.5 billion specimens representing 80% of the world's species
-      background: /assets/images/about/numbers/fact-leaf-bg.png
-
 data:
   klass: about-data
   title: DiSSCo Data
