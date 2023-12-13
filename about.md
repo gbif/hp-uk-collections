@@ -6,7 +6,7 @@ background: /assets/images/about/header.png
 imageLicense: Photo by <a href="https://unsplash.com/@iamjustiinn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">justin van aken</a> on <a href="https://unsplash.com/photos/green-fern-plant-during-daytime-6RpCrK8nAxk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 layout: compose
 klass: compositionBlocks
-height: 40vh
+height: 10vh
 composition:
   - type: heroImage
   - type: floatingText
