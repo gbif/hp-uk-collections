@@ -160,3 +160,24 @@ Resources page styling.
 .resource-dashboard-right {
   flex: 1;
 }
+
+/*
+Home page styling.
+ */
+.home_video {
+  @extend .floatingHero;
+  @extend .home;
+  @extend .hasWhiteText;
+
+  color: rgba(0, 0, 0, 0.333);
+  height: auto;
+  min-height: calc(100vh - var(--navbar-height));
+
+  .spacer {
+    height: 20px;
+  }
+
+  iframe {
+    border-radius: 1.3rem;
+  }
+}
