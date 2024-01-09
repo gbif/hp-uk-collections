@@ -6,6 +6,10 @@ summary:
     contributed to our 2022 survey to understand the size, diversity, origin an
     current levels of digitisation. The UK holds more than 137 million specimens
     recorded from 83 institutions and collected from across the world.
+  cta:
+    - text: Explore data
+      isPrimary: true
+      href: /specimen/search
 
 map:
   background: /assets/images/dissco_map.png

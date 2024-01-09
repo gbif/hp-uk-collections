@@ -3,13 +3,15 @@
 - text: About
   href: /about
 - text: UK Specimens
-  href: /specimen/search
+  menu:
+    - text: Occurrences
+      href: /specimen/search
+    - text: Gallery
+      href: /specimen/search?view=GALLERY
+    - text: Map
+      href: /specimen/search?view=MAP
 - text: UK Institutions
   href: /institution/search
-- text: Gallery
-  href: /specimen/search?view=GALLERY
-- text: Map
-  href: /specimen/search?view=MAP
 - text: News
   href: /news
 - text: Resources
