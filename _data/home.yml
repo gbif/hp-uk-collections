@@ -37,6 +37,6 @@ video:
             </h3>
         </div>
         <div class="spacer"></div>
-        <iframe width="720" height="405" src="https://www.youtube.com/embed/4Ad1SCl0s6w" title="Harnessing the Power of Natural Science Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe>
+        <iframe src="https://www.youtube.com/embed/4Ad1SCl0s6w" title="Harnessing the Power of Natural Science Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
     </div>
