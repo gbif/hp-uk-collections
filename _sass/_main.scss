@@ -184,3 +184,16 @@ Home page styling.
     height: 405px;
   }
 }
+
+/*
+News page styling.
+ */
+.news_body {
+  .features {
+    background-color: rgb(41, 80, 119);
+
+    .feature {
+      border: unset;
+    }
+  }
+}
