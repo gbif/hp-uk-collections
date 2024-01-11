@@ -3,6 +3,7 @@ lang-ref: archive
 layout: archive
 title: News
 description: News and events
+klass: news_body
 permalink: /news/
 ---
 {% comment %}
