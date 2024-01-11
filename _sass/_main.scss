@@ -151,6 +151,10 @@ Resources page styling.
   .resource-dashboard-left-title {
     font-size: 1.5rem;
     font-weight: bold;
+
+    @media (max-width: 1050px) {
+      align-self: center;
+    }
   }
 
   .resource-dashboard-left-description {
@@ -163,6 +167,10 @@ Resources page styling.
 
 .resource-dashboard-right {
   flex: 1;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
 }
 
 /*
