@@ -13,6 +13,10 @@ dashboard:
           of research and innovation
         </p>
       </div>
+      <div style="height: 2rem;"></div>
+      <div class="feature-cta">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiMTA4ZDRkYTktMGU5ZS00ZTM0LTkzMTktZjdkZDZiMGEwZDY0IiwidCI6IjczYTI5YzAxLTRlNzgtNDM3Zi1hMGQ0LWM4NTUzZTE5NjBjMSIsImMiOjh9" class="button is-primary" target="_blank">View dashboard</a>
+      </div>
     </div>
     <iframe class="resource-dashboard-right" src="https://app.powerbi.com/view?r=eyJrIjoiMTA4ZDRkYTktMGU5ZS00ZTM0LTkzMTktZjdkZDZiMGEwZDY0IiwidCI6IjczYTI5YzAxLTRlNzgtNDM3Zi1hMGQ0LWM4NTUzZTE5NjBjMSIsImMiOjh9"></iframe>
 
