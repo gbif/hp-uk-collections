@@ -39,4 +39,8 @@ video:
         <div class="spacer"></div>
         <iframe src="https://www.youtube.com/embed/4Ad1SCl0s6w" title="Harnessing the Power of Natural Science Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe>
+        <div class="feature-cta">
+          <a href="/specimen/search" class="button is-primary">Explore specimens</a>
+          <a href="/institution/search" class="button">Explore institutions</a>
+        </div>
     </div>
