@@ -4,9 +4,9 @@
   href: /about
 - text: UK Specimens
   menu:
-    - text: Occurrences
+    - text: Specimen records
       href: /specimen/search
-    - text: Gallery
+    - text: Images
       href: /specimen/search?view=GALLERY
     - text: Map
       href: /specimen/search?view=MAP

@@ -101,6 +101,7 @@ var siteConfig = {
   },
   messages: {
     "catalogues.occurrences": "Specimens",
-    "filters.city.name": "City/town"
+    "search.tabs.gallery": "Images",
+    "filters.city.name": "City/town",
   }
 };
