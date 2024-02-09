@@ -15,8 +15,8 @@ blueprint:
 latest:
   title: Latest news
 
-video:
-  klass: home_video
+main:
+  klass: home_main
   markdownContent: |
     # this is just a copy of the GBIF heroImage block but with an added spacer and video
     <div class="feature-img">

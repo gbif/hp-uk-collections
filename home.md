@@ -5,7 +5,7 @@ klass: home
 permalink: /
 composition:
   - type: blank
-    data: home.video
+    data: home.main
   - type: product
     data: home.blueprint
   - type: latestPosts
