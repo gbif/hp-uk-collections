@@ -17,8 +17,8 @@ latest:
 
 main:
   klass: home_main
+  # this is just a copy of the GBIF heroImage block but with an added spacer and video
   markdownContent: |
-    # this is just a copy of the GBIF heroImage block but with an added spacer and video
     <div class="feature-img">
         <img src="/assets/images/sample_home.JPG">
         <div class="feature-img-license">
