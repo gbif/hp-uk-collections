@@ -176,7 +176,7 @@ Resources page styling.
 /*
 Home page styling.
  */
-.home_video {
+.home_main {
   @extend .floatingHero;
   @extend .home;
   @extend .hasWhiteText;
@@ -185,15 +185,102 @@ Home page styling.
   height: auto;
   min-height: calc(100vh - var(--navbar-height));
 
-  .spacer {
-    height: 20px;
+  .home-feature-title {
+    color: white;
+    font-size: 54px;
+    margin-bottom: 42px;
+    font-weight: bold;
   }
 
-  iframe {
-    border-radius: 1.3rem;
-    width: 90%;
-    max-width: 720px;
-    height: 405px;
+  .home-feature-subtitle {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .home-search-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .home-search {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 650px;
+
+      @media (max-width: 670px) {
+        width: 350px;
+      }
+
+      .home-tabs {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        color: gray;
+
+        div {
+          flex-grow: 1;
+
+          &:first-child {
+            border-radius: 4px 0 0 0;
+          }
+
+          &:last-child {
+            border-radius: 0 4px 0 0;
+          }
+        }
+      }
+
+      input[type="search"] {
+        border: none;
+        border-radius: 0 0 4px 4px;
+        background: white;
+        margin: 0;
+        padding: 7px 8px;
+        font-size: 16px;
+        height: 40px;
+        outline: none;
+        width: 100%;
+      }
+
+      button[type="submit"] {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-indent: -999px;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background: white url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+        cursor: pointer;
+        opacity: 0.95;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.home_video {
+  @extend .product;
+
+  .feature-img {
+    display: flex;
+    justify-content: center;
+
+    iframe {
+      border-radius: 1.3rem;
+      max-width: 720px;
+      max-height: 405px;
+      flex-grow: 1;
+    }
   }
 }
 
@@ -209,3 +296,5 @@ News page styling.
     }
   }
 }
+
+

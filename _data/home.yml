@@ -1,46 +1,96 @@
-blueprint:
-  title: Harnessing the Power of Natural Science Collections
-  description: |
-    DiSSCo UK is harnessing the full potential of the UK's natural science collections
-    by making them physically and digitally open, accessible, and usable for all forms
-    of research and innovation. The DiSSCo UK Blueprint describes how the consortium
-    aims to scale up digitisation and cooperation through a national infrastructure
-    programme.
-  background: /assets/images/dissco_map.png
-  cta:
-    - text: Download report
-      href: /assets/Harnessing the Power of Natural Science Collections.pdf
-      isPrimary: true
-
 latest:
   title: Latest news
 
-video:
+blueprint_with_video:
   klass: home_video
+  # this is based on the product block
   markdownContent: |
-    # this is just a copy of the GBIF heroImage block but with an added spacer and video
+    <div class="feature-img">
+      <iframe src="https://www.youtube.com/embed/4Ad1SCl0s6w" title="Harnessing the Power of Natural Science Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+    </div>
+    
+    <div class="feature-content">
+        <div class="feature-text">
+            <h3 class="feature-title">
+                <p>Harnessing the Power of Natural Science Collections</p>
+            </h3>
+        </div>
+    
+        <div class="feature-description">
+            <p>
+               DiSSCo UK is harnessing the full potential of the UK’s natural science
+               collections by making them physically and digitally open, accessible, and
+               usable for all forms of research and innovation. The DiSSCo UK Blueprint
+               describes how the consortium aims to scale up digitisation and
+               cooperation through a national infrastructure programme.
+            </p>
+        </div>
+        <div class="feature-cta">
+            <a href="/assets/Harnessing%20the%20Power%20of%20Natural%20Science%20Collections.pdf"
+                class="button is-primary">
+              Download report
+            </a>
+        </div>
+    </div>
+
+main:
+  klass: home_main
+  # this is based on the hero image block
+  markdownContent: |
+    <script>
+    function switchToSpecimens() {
+      document.getElementById("home-search-form").action = "/specimen/search";
+      document.getElementById("home-search-input").placeholder = "e.g. odonata";
+      document.getElementById("home-tab-specimens").classList.add("is-primary");
+      document.getElementById("home-tab-institutions").classList.remove("is-primary");
+    }
+
+    function switchToInstitutions() {
+      document.getElementById("home-search-form").action = "/institution/search";
+      document.getElementById("home-search-input").placeholder = "e.g. museum";
+      document.getElementById("home-tab-institutions").classList.add("is-primary");
+      document.getElementById("home-tab-specimens").classList.remove("is-primary");
+    }
+    </script>
+
     <div class="feature-img">
         <img src="/assets/images/sample_home.JPG">
         <div class="feature-img-license">
             <div class="feature-img-license-c">
-              <span class="icon"><i class="fa fa-info-circle"></i></span>
+                <span class="icon"><i class="fa fa-info-circle"></i></span>
             </div>
             <div class="feature-img-license-text">
                 <p>Copyright Trustees of the Natural History Museum</p>
             </div>
         </div>
     </div>
-    <div class="feature-content ">
-        <div class="feature-text">
-            <h3 class="feature-title">
-                <p>The Distributed System of Scientific Collections</p>
-            </h3>
-        </div>
-        <div class="spacer"></div>
-        <iframe src="https://www.youtube.com/embed/4Ad1SCl0s6w" title="Harnessing the Power of Natural Science Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
-        <div class="feature-cta">
-          <a href="/specimen/search" class="button is-primary">Explore specimens</a>
-          <a href="/institution/search" class="button">Explore institutions</a>
+
+    <div class="feature-content">
+        <h1 class="home-feature-title">The Distributed System of Scientific Collections UK</h1>
+        <h2 class="home-feature-subtitle">Search UK natural science collections</h2>
+
+        <div class="home-search-wrapper">
+            <div class="home-search">
+                <div class="home-tabs">
+                    <div class="button is-primary" id="home-tab-specimens"
+                         onclick="switchToSpecimens()">
+                        <span>Search specimens</span>
+                    </div>
+                    <div class="button" id="home-tab-institutions"
+                         onclick="switchToInstitutions()">
+                        <span>Search institutions</span>
+                    </div>
+                </div>
+                <form id="home-search-form" action="/specimen/search" method="GET">
+                    <input type="search"
+                           name="q"
+                           id="home-search-input"
+                           value=""
+                           autocomplete="off"
+                           placeholder="e.g. odonata">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
         </div>
     </div>
