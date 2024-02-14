@@ -6,8 +6,8 @@ permalink: /
 composition:
   - type: blank
     data: home.main
-  - type: product
-    data: home.blueprint
+  - type: blank
+    data: home.blueprint_with_video
   - type: latestPosts
     data: home.latest
 ---
