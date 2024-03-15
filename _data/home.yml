@@ -52,6 +52,51 @@ main:
       document.getElementById("home-tab-institutions").classList.add("is-primary");
       document.getElementById("home-tab-specimens").classList.remove("is-primary");
     }
+
+    async function getGBIFCount(params) {
+      const response = await fetch(
+          `https://graphql.gbif.org/graphql?${params}`,
+          // use a 5 second timeout
+          {signal: AbortSignal.timeout(5000)}
+        );
+      const result = await response.json();
+      return result.data;
+    }
+
+    (async function getRecordCount() {
+      // the parameters for both institution count and specimen count requests have been
+      // nabbed from the search pages. GBIF's graphql is not stable and public so we're
+      // at the merci of GBIF and will need to keep these up to date.
+      const institutionParams = new URLSearchParams({
+        "queryId": "ed48400d668e18ea56353eb7dc2ad2057946c715",
+        "strict": true,
+        "variables": JSON.stringify({
+          "displayOnNHCPortal": true,
+          "country":"GB",
+          "active":true,
+          "limit":0,
+        }),
+      });
+      const specimenParams = new URLSearchParams({
+        "queryId": "23b0d9d449dd320f704fafca0de163cf18b745da",
+        "strict": true,
+        "variables": JSON.stringify({
+          "predicate": siteConfig.occurrence.rootPredicate,
+          "size": 0,
+        }),
+      });
+      try {
+        const specimenCount = (await getGBIFCount(specimenParams)).occurrenceSearch.documents.total;
+        const institutionCount = (await getGBIFCount(institutionParams)).institutionSearch.count;
+        document.getElementById("home-feature-subtitle-rcount").textContent = specimenCount.toLocaleString("en");
+        document.getElementById("home-feature-subtitle-icount").textContent = institutionCount;
+        document.getElementById("home-feature-subtitle-nocount").style.display = "none";
+        document.getElementById("home-feature-subtitle-count").style.display = "inline";
+      } catch (error) {
+        // swallow all errors, nom nom nom, but do log
+        console.log(`An error occurred while loading the counts: ${error}`);
+      }
+    })();
     </script>
 
     <div class="feature-img">
@@ -68,8 +113,10 @@ main:
 
     <div class="feature-content">
         <h1 class="home-feature-title">The Distributed System of Scientific Collections UK</h1>
-        <h2 class="home-feature-subtitle">Search UK natural science collections</h2>
-
+        <h2 class="home-feature-subtitle">
+          <span id="home-feature-subtitle-nocount">Search UK natural science collections</span>
+          <span id="home-feature-subtitle-count">Search <span id="home-feature-subtitle-rcount"></span> records from <span id="home-feature-subtitle-icount"></span> UK natural science collections</span>
+        </h2>
         <div class="home-search-wrapper">
             <div class="home-search">
                 <div class="home-tabs">

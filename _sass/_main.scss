@@ -181,9 +181,13 @@ Home page styling.
   @extend .home;
   @extend .hasWhiteText;
 
-  color: rgba(0, 0, 0, 0.333);
+  color: rgba(0, 0, 0, 0.45);
   height: auto;
   min-height: calc(100vh - var(--navbar-height));
+
+  .feature-content {
+    margin-bottom: calc(var(--navbar-height) / 2);
+  }
 
   .home-feature-title {
     color: white;
@@ -193,9 +197,17 @@ Home page styling.
   }
 
   .home-feature-subtitle {
-    color: white;
+    color: lightgray;
     font-size: 32px;
     font-weight: bold;
+  }
+
+  #home-feature-subtitle-count {
+    display: none;
+
+    span {
+      color: white;
+    }
   }
 
   .home-search-wrapper {
