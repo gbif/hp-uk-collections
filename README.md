@@ -11,3 +11,14 @@ You can find information on editing this site and more on [gbif/hosted-portals](
 Staging site: https://uk-collections.hp.gbif-staging.org/ 
 
 > Powered by [GBIF](https://www.gbif.org/)
+
+## Running locally
+
+You can run the site locally for more involved dev work using the following from the root of your repo checkout:
+
+```bash
+docker run -p "4000:4000" -e JEKYLL_ENV=development --rm --volume="$PWD:/srv/jekyll" docker.gbif.org/fast-jekyll:4.1.0 jekyll serve --port 4000 --host 0.0.0.0
+```
+
+Annoyingly, this seems to not respond to ctrl-c requests, so you'll have to kill it.
+
