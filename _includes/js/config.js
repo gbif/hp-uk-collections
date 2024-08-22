@@ -57,7 +57,7 @@ var siteConfig = {
         { "type": "equals", "key": "publishingCountry", "value": "GB" }
       ]
     },
-    occurrenceSearchTabs: ['TABLE', 'GALLERY', 'MAP', 'DATASETS'] // what tabs should be shown
+    occurrenceSearchTabs: ['TABLE', 'GALLERY', 'MAP', 'DATASETS', 'DASHBOARD'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   collection: {
