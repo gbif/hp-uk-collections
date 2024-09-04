@@ -17,8 +17,6 @@ composition:
     data: about.benefits
   - type: product
     data: about.data
-  - type: product
-    data: about.partners
   - type: markdown
     data: about.acknowledgements
   - type: blank
