@@ -4,7 +4,7 @@ date: 2022-04-06
 categories:
   - Outreach
   - Science communication
-background: assets/images/kernelsimage.png
+background: assets/images/manchester_corn.png
 ---
 
 **by Jennie Aspinall**
