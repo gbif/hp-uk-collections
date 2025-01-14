@@ -53,41 +53,54 @@ main:
       document.getElementById("home-tab-specimens").classList.remove("is-primary");
     }
 
-    async function getGBIFCount(params) {
+    async function getRecordCount() {
       const response = await fetch(
-          `https://graphql.gbif.org/graphql?${params}`,
+        "https://api.gbif.org/v1/occurrence/search/predicate",
+        {
           // use a 5 second timeout
-          {signal: AbortSignal.timeout(5000)}
-        );
+          signal: AbortSignal.timeout(5000),
+          method: "post",
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            limit: 0,
+            predicate: siteConfig.occurrence.rootPredicate,
+          }),
+        }
+      );
       const result = await response.json();
-      return result.data;
+      return result.data.count;
     }
 
-    (async function getRecordCount() {
-      // the parameters for both institution count and specimen count requests have been
-      // nabbed from the search pages. GBIF's graphql is not stable and public so we're
-      // at the merci of GBIF and will need to keep these up to date.
-      const institutionParams = new URLSearchParams({
+    async function getInstitutionCount() {
+      // these parameters have been nabbed from the institution search page. GBIF's
+      // graphql is not stable nor public, so we're at the merci of GBIF and will need to
+      // keep this up to date if anything changes
+      const params = new URLSearchParams({
         "queryId": "ed48400d668e18ea56353eb7dc2ad2057946c715",
         "strict": true,
         "variables": JSON.stringify({
           "displayOnNHCPortal": true,
-          "country":"GB",
-          "active":true,
-          "limit":0,
+          "country": "GB",
+          "active": true,
+          "limit": 0,
         }),
       });
-      const specimenParams = new URLSearchParams({
-        "queryId": "605377d28a427710e6009c242a3ddda217188884",
-        "strict": true,
-        "variables": JSON.stringify({
-          "predicate": siteConfig.occurrence.rootPredicate,
-          "size": 0,
-        }),
-      });
+      const response = await fetch(
+        `https://graphql.gbif.org/graphql?${params}`,
+        // use a 5-second timeout
+        {signal: AbortSignal.timeout(5000)}
+      );
+      const result = await response.json();
+      return result.data["institutionSearch"]["count"];
+    }
+
+    (async function load() {
       try {
-        const specimenCount = (await getGBIFCount(specimenParams)).occurrenceSearch.documents.total;
-        const institutionCount = (await getGBIFCount(institutionParams)).institutionSearch.count;
+        const specimenCount = (await getRecordCount());
+        const institutionCount = (await getInstitutionCount());
         document.getElementById("home-feature-subtitle-rcount").textContent = specimenCount.toLocaleString("en");
         document.getElementById("home-feature-subtitle-icount").textContent = institutionCount;
         document.getElementById("home-feature-subtitle-nocount").style.display = "none";
