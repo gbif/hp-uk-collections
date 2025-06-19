@@ -124,31 +124,6 @@ The funding is broadly expected to cover: 
 
 The remaining budget includes contingency in line with government requirements, and funding for DiSSCo UK management including network activities, communications and administering funding bids. 
 
-### What will be covered by the digitisation funding?  
-Digitisation funding is expected to cover: 
-+ People (digitisation and associated roles such as project management / hub coordination)
-+ Digitisation equipment (may be centrally procured and provided in some instances)
-+ Recruitment advertising
-+ Digitisation consumables (e.g. barcodes and labels etc)
-+ Transport
-+ Limited scope to include other expenses if these are essential to digitisation e.g. minor furniture or conservation costs 
-
-We expect the following to be centrally provided: 
-+ Training including data mobilisation  
-+ Data storage and access infrastructure 
-+ Programme management and communications including network meetings and governance meetings 
-
-Not in scope for digitisation funding: 
-+ Physical refit of spaces
-+ Other staff costs such as senior leadership
-+ Most types of conservation or physical collections management costs 
-
-### What is the depth/level of digitisation that can be applied for in the bidding process? 
-Specimen level and collection level digitisation. In-depth analysis of specimens is not covered. 
-
-### Is there any funding available for physical infrastructure?    
-The funding will cover provision of digitisation workstations, critical consumables such as barcodes, and occasionally associated furniture where this is critical to the digitisation processes. It will not cover the physical refit of spaces or capital works, nor extensive collections rehousing or expansion.  
-
 
 ## Planning and preparation 
 
