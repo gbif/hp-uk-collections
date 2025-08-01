@@ -3,7 +3,7 @@ title: "DiSSCo UK First funding call launch"
 date: 2025-08-01
 categories:
   - Programme updates
-background: assets/images/wheatdigitsation.jpg
+background: assets/images/wheatdigitisation.jpg
 ---
 
 **by Tara Wainwright**
