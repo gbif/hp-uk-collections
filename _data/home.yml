@@ -78,7 +78,7 @@ main:
         }),
       });
       const specimenParams = new URLSearchParams({
-        "queryId": "605377d28a427710e6009c242a3ddda217188884",
+        "queryId": "21bced07d7b267da7c715e1d963a53638daecbff",
         "strict": true,
         "variables": JSON.stringify({
           "predicate": siteConfig.occurrence.rootPredicate,
