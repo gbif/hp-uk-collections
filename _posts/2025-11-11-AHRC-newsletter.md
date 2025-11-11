@@ -4,8 +4,8 @@ date: 2025-11-07
 categories:
   - Programme updates
 background: assets/images/BGSstorage.heic
-caption: Offshore core storage in the British Geological Survey's National Geological Repository at Keyworth
 ---
+*Offshore core storage in the British Geological Survey's National Geological Repository at Keyworth*
 
 **by Cara Kitima, Joanna Dunster, David Selway & Natalie Rowe**
 
