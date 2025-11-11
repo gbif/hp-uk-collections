@@ -4,8 +4,9 @@ date: 2025-11-07
 categories:
   - Outreach
 background: assets/images/BGSstorage.jpg
+excerpt: by Cara Kitima, Joanna Dunster, David Selway & Natalie Rowe
 ---
-*Offshore core storage in the British Geological Survey's National Geological Repository at Keyworth*
+*Image: Offshore core storage in the British Geological Survey's National Geological Repository at Keyworth*
 
 **by Cara Kitima, Joanna Dunster, David Selway & Natalie Rowe**
 
