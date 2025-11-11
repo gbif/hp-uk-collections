@@ -2,7 +2,7 @@
 title: "Reflections from AHRC visits across the DiSSCo UK network"
 date: 2025-11-07
 categories:
-  - Programme updates
+  - Outreach
 background: assets/images/BGSstorage.jpg
 ---
 *Offshore core storage in the British Geological Survey's National Geological Repository at Keyworth*
