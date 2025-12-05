@@ -52,50 +52,65 @@ main:
       document.getElementById("home-tab-institutions").classList.add("is-primary");
       document.getElementById("home-tab-specimens").classList.remove("is-primary");
     }
-
-    async function getGBIFCount(params) {
-      const response = await fetch(
-          `https://graphql.gbif.org/graphql?${params}`,
-          // use a 5 second timeout
-          {signal: AbortSignal.timeout(5000)}
-        );
-      const result = await response.json();
-      return result.data;
+    
+    async function graphqlCount(query, variables) {
+        const graphqlUrl = 'https://graphql.gbif.org/graphql';
+        const response = await fetch(graphqlUrl, {
+            signal: AbortSignal.timeout(5000),
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+            },
+            body: JSON.stringify({
+                query,
+                variables,
+            }),
+        });
+        const result = await response.json();
+        return result.data;
     }
-
+    
     (async function getRecordCount() {
-      // the parameters for both institution count and specimen count requests have been
-      // nabbed from the search pages. GBIF's graphql is not stable and public so we're
-      // at the merci of GBIF and will need to keep these up to date.
-      const institutionParams = new URLSearchParams({
-        "queryId": "4ac170d9224c4e29dd02dee516c67736a7b4434c",
-        "strict": true,
-        "variables": JSON.stringify({
-          "displayOnNHCPortal": true,
-          "country":"GB",
-          "active":true,
-          "limit":0,
-        }),
-      });
-      const specimenParams = new URLSearchParams({
-        "queryId": "21bced07d7b267da7c715e1d963a53638daecbff",
-        "strict": true,
-        "variables": JSON.stringify({
-          "predicate": siteConfig.occurrence.rootPredicate,
-          "size": 0,
-        }),
-      });
-      try {
-        const specimenCount = (await getGBIFCount(specimenParams)).occurrenceSearch.documents.total;
-        const institutionCount = (await getGBIFCount(institutionParams)).institutionSearch.count;
-        document.getElementById("home-feature-subtitle-rcount").textContent = specimenCount.toLocaleString("en");
-        document.getElementById("home-feature-subtitle-icount").textContent = institutionCount;
-        document.getElementById("home-feature-subtitle-nocount").style.display = "none";
-        document.getElementById("home-feature-subtitle-count").style.display = "inline";
-      } catch (error) {
-        // swallow all errors, nom nom nom, but do log
-        console.log(`An error occurred while loading the counts: ${error}`);
-      }
+        const institutionQuery = `query GetInstitutionCount($query: InstitutionSearchInput) {
+          institutionSearch(query: $query) { count }
+        }`;
+        const institutionVariables = {
+            query: {
+                displayOnNHCPortal: true,
+                country: 'GB',
+                active: true,
+                limit: 0,
+                offset: 0,
+            },
+        };
+        const specimenQuery = `query OccurrenceSearch($predicate: Predicate) {
+          occurrenceSearch(predicate: $predicate) { documents { total } }
+        }`;
+        const specimenVariables = {
+            predicate: siteConfig.occurrence.rootPredicate,
+        };
+        try {
+            const institutionCount = (
+                await graphqlCount(institutionQuery, institutionVariables)
+            ).institutionSearch.count;
+            const specimenCount = (
+                await graphqlCount(specimenQuery, specimenVariables)
+            ).occurrenceSearch.documents.total;
+            
+            document.getElementById('home-feature-subtitle-icount').textContent =
+                institutionCount;
+            document.getElementById('home-feature-subtitle-rcount').textContent =
+                specimenCount.toLocaleString('en');
+            document.getElementById(
+                'home-feature-subtitle-nocount',
+            ).style.display = 'none';
+            document.getElementById('home-feature-subtitle-count').style.display =
+                'inline';
+        } catch (error) {
+            // swallow all errors, nom nom nom, but do log
+            console.log(`An error occurred while loading the counts: ${error}`);
+        }
     })();
     </script>
 
