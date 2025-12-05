@@ -55,7 +55,6 @@ main:
     
     async function graphqlCount(query, variables) {
         const graphqlUrl = 'https://graphql.gbif.org/graphql';
-        console.log(query);
         const response = await fetch(graphqlUrl, {
             signal: AbortSignal.timeout(5000),
             method: 'POST',
