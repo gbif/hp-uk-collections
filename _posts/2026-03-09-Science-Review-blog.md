@@ -11,7 +11,7 @@ background: assets/images/ScienceReviewImage.jpg
  
 _5 min read_ 
 
-##Who’s using our UK Natural Science data and why?  
+## Who’s using our UK Natural Science data and why?  
 
 The UK is home to some of the world’s largest and most significant natural history collections. To show how these collections are already being used to tackle some of the most fundamental questions of our time, the DiSSCo UK team has published a [Year 0 Science Review](dissco-uk.org/ assets/DiSSCo%20UK%20Year%200%20Science%20Review.pdf). 
 
@@ -21,7 +21,7 @@ Ahead of the formal launch of the ten-year programme, the DiSSCo UK Year 0 Scien
 
 The science review highlights several studies that use digitised natural science collections to understand how species and ecosystems respond to environmental change. This can be used to inform research on ecosystem services, invasive species, food security and more. The review also highlights how digitisation is enabling new forms of data-driven research, particularly through advances in artificial intelligence and machine learning. 
 
-##Nature under pressure 
+## Nature under pressure 
 
 The Earth is warming at an unprecedented rate and experiencing long-term shifts in weather patterns. Fossil pollen offers important insights into past climates and helps predict how global warming may shift seasonal patterns in the UK. A study by McCoy et al published in [*Palaeontologia Electronica*](https://palaeo-electronica.org/content/2024/5275-mid-cenozoic-palaeoclimates-northwest-europe) reconstructs the climate of the British Isles during the mid-Cenozoic era (33.9–15.97 million years ago).  
 
@@ -35,7 +35,7 @@ Researchers found that the butterflies’ northward expansion has been driven by
 
 Combining digitised collections with modern monitoring data enables scientists to track trends over decades or even centuries. This helps reveal which species are expanding, which are declining, and how ecosystems are responding to pressures like climate change and habitat loss.  
 
-##Protecting our ecosystems 
+## Protecting our ecosystems 
 
 Ensuring access to sufficient, nutritious food is essential for human wellbeing, but global food systems are under increasing pressure from climate change, pollution, water scarcity, land degradation, and overconsumption.  
 
@@ -47,7 +47,7 @@ A study by [Phillips et al](https://www.cambridge.org/core/journals/plant-geneti
 
 As environmental change increasingly affects human health and food systems, crop wild relatives becomes even more vital. Improving access to herbarium specimens through digitisation will help fill data gaps and support accurate conservation assessments to support the resilience of crops and preventing the spread of invasive species. 
 
-##Data innovation 
+## Data innovation 
 
 Transforming analogue specimens into digital opens new opportunities for research. Advances in artificial intelligence and data science are accelerating this transformation. Machine learning enables automated transcription, image-based identification and quality assurance at scale, while AI-driven analytics, knowledge graphs and predictive models support new ways of extracting data.  
 
