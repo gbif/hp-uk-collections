@@ -13,7 +13,7 @@ _5 min read_
 
 ## Who’s using our UK Natural Science data and why?  
 
-The UK is home to some of the world’s largest and most significant natural history collections. To show how these collections are already being used to tackle some of the most fundamental questions of our time, the DiSSCo UK team has published a [Year 0 Science Review](../assets/DiSSCo%20UK%20Year%200%20Science%20Review.pdf). 
+The UK is home to some of the world’s largest and most significant natural history collections. To show how these collections are already being used to tackle some of the most fundamental questions of our time, the DiSSCo UK team has published a [Year 0 Science Review](/assets/DiSSCo%20UK%20Year%200%20Science%20Review.pdf). 
 
 DiSSCo UK is set to transform the digitisation of UK collections by bringing together the collections of 100 institutions to create one of the world’s largest natural history assets. [This is a major 10 year investment funded by UK Research and Innovation (UKRI)](https://www.nhm.ac.uk/press-office/press-releases/natural-history-museum-to-lead-new-national-programme-to-digitis.html) and delivered by the Museum and the Arts and Humanities Research Council (AHRC). The programme will digitise and connect these collections, creating an AI-ready national data infrastructure.  
 
