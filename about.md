@@ -13,7 +13,7 @@ composition:
     data: about.summary
   - type: product
     data: about.map
-  - type: markdown
+  - type: floatingText
     data: about.benefits
   - type: product
     data: about.data
