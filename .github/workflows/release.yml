@@ -20,7 +20,7 @@ jobs:
         uses: StephaneBour/actions-calver@master
         with:
           date_format: 'v%Y.%V'
-          version_regexp: '^v\d{4}\.\d{2}\.\d+$'
+          version_regexp: '^v\d{4}\.\d{2}(\.\d+)?$'
           release: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
