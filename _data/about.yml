@@ -2,10 +2,11 @@
 
 summary:
   description: |
-    There are an estimated 650 natural science collections in the UK and 94 of these
-    contributed to our 2022 survey to understand the size, diversity, origin an
-    current levels of digitisation. The UK holds more than 137 million specimens
-    recorded from 83 institutions and collected from across the world.
+    DiSSCo UK (The Distributed System of Scientific Collections UK) is a 10-year programme to digitise the natural science collections across the UK.
+    
+    Delivered by the Arts and Humanities Research Council in partnership with the Natural History Museum as part of the UKRI Infrastructure Fund, DiSSCo UK will transform UK natural science collections to create one of the world's largest natural history assets.
+    
+    For centuries, these collections have stored the evidence of life on Earth, and now they can help shape its future. Digitising the UK’s collections turns hidden knowledge into open data, powering research and solutions for a rapidly changing world.
   cta:
     - text: Explore data
       isPrimary: true
@@ -14,48 +15,40 @@ summary:
 map:
   background: /assets/images/dissco_map.png
   cta:
-    - text: Download the booklet
+    - text: Download the blueprint
       href: /assets/Harnessing the Power of Natural Science Collections.pdf
       isPrimary: true
   description: |
-    DiSSCo UK seeks to become a one-stop, dynamic, openly available and easy-to-use
-    e-science infrastructure, integrating digital access to UK natural science
-    collections.
-    Through a hub and spoke model of digitisation at national, regional and local levels
-    DiSSCo will:
-      - Empower the UK network of collections through digitisation
-      - Enhance UK biodiversity and heritage information infrastructure
-      - Improve data quality
-      - Deliver relevant data
+    Our UK collections hold more than 140 million specimens, spanning an incredible 4.6-billion-year history. Together, they provide unparalleled evidence of how our planet has changed over time and how it is changing now.  
+    
+    DiSSCo UK will connect over 100 institutions. Through digitisation, coordination, innovation, and community building, we will create a unique infrastructure that builds UK digital capacity and maximises the impact of natural science data. 
+    
+    We will: 
+    1. Create impact by unlocking and catalysing the full scientific, research and economic potential of the UK’s world-leading natural science collections. 
+    2. Increase capability by delivering a nationwide step-change in the UK’s capacity to digitise its natural science collections. 
+    3. Drive innovation by leveraging natural science collections data and technology to accelerate UK economic growth and innovation.  
 
 benefits:
   markdownContent: |
-    # Benefits of UK natural science collections
+    The data we need to tackle today’s global challenges already exists, but much of it is locked away. Unlocking and connecting the UK’s natural science collections over the next ten years will make vital evidence on biodiversity, climate and health accessible at the scale and speed needed to inform research, policy, and action.  
     
-    ## Scientific Benefits
-    Natural science collections are a critical resource for scientists advancing
-    knowledge that informs challenging global issues including climate change,
-    biodiversity conservation, resourcing the green economy and our response to
-    pandemics such as COVID-19.
+    Much of the data held in natural science collections is not yet digitally accessible, limiting its use in modern, large-scale research. DiSSCo UK fulfils an urgent need, as the twin crises of biodiversity loss and climate change accelerate, scientists need connected, high-quality data to understand change and respond effectively.  
     
-    ## Societal Benefits
-    Natural science collections connect and empower society, inspiring a lifelong love
-    of nature, are the source of educational material for generations and provide
-    communities with data and knowledge, as well as involving them in its creation and
-    interpretation.
+    Digitisation unlocks this potential, transforming fragmented, physical collections into a powerful, shared resource. Data from natural science collections are an essential baseline for environments that can be used to reconstruct historic ecosystems and predict biodiversity responses to planetary change. 
     
-    ## Economic Benefits
-    Digitisation of natural science digitisation has the potential to deliver a tenfold
-    return on investment, creating benefits in excess of £2 billion over 30 years.
+    Innovative technologies are making digitisation more efficient and cost effective than ever before, and the combination of data and technologies creates new possibilities by enabling different types of research and on a greater scale. Improved access to our natural science collections will unlock their full value, increase the visibility and impact of UK data, facilitate more efficient and effective research, improve digital skills and capabilities nationwide, and generate research and economic benefits for the UK.
+  cta:
+    - text: Download the Science Review
+      href: /assets/DiSSCo UK Year 0 Science Review.pdf
+      isPrimary: true
 
 data:
   klass: about-data
-  title: DiSSCo Data
+  title: DiSSCo UK Infrastructure
   description: |
-    DiSSCo UK will adopt the relatively mature data standards and technologies that have
-    already been developed within the global natural science collections community.
-    All data generated through the network is both open and FAIR (Findable,
-    Interoperable, Accessible and Reproducible).
+    We will build, procure, and coordinate new technical infrastructure to enable the storage, publishing, and access of UK specimen data and associated images. 
+    
+    We will adopt the data standards and technologies that have already been developed within the global natural science collections community. All data generated through the network will be both open and FAIR (Findable, Interoperable, Accessible and Reproducible).
   background: /assets/images/about/fossil.png
   reverse: true
 
@@ -95,11 +88,10 @@ partners:
 acknowledgements:
   markdownContent: |
     # Acknowledgements
-
-    We would like to thank the Arts and Humanities Research Council (AHRC) for their
-    support and guidance in the preparation of this report (Grant number AH/W006715/1)
-    and especially thank the 94 UK natural science collections who generously provided
-    their time and data to develop the concept of DiSSCo UK.
+    
+    DiSSCo UK is funded through the UKRI Infrastructure Fund and will be delivered through the UKRI Arts and Humanities      Research Council in partnership with the Natural History Museum. 
+    
+    We would like to thank the 100+ natural science collections who have supported the development of DiSSCo UK.
 
 ahrcLogo:
   klass: about_ahrc_logo
