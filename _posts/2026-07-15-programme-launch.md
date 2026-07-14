@@ -3,7 +3,7 @@ title: "A new chapter for UK digitisation"
 date: 2026-03-09  
 categories:  
   - Programme updates  
-background: assets/images/digitised_beetles.jpg  
+background: assets/images/digitised_beetles.JPG
 ---  
  
 **by Tara Wainwright**  
