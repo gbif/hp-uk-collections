@@ -1,6 +1,6 @@
 ---  
 title: "A new chapter for UK digitisation"  
-date: 2026-07-15
+date: 2026-07-14
 categories:  
   - Programme updates  
 background: assets/images/digitised_beetles.JPG
