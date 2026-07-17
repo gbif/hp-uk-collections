@@ -74,7 +74,7 @@ DiSSCo UK is a low-carbon programme compared to many other infrastructure projec
 
 The programme is also expected to have positive impacts on the environment, through better targeting of physical visits to collections and enabling new environmental research. 
 
-## Programme structure and phasing 
+## Funding 
 
 ### How will digitisation funding be distributed?  
 + DiSSCo UK offers opportunities for natural science collections of all types and sizes to bid for digitisation funding over the 10-year programme, through a phased, open bidding process.
@@ -83,61 +83,6 @@ The programme is also expected to have positive impacts on the environment, thro
 + The funding bid process is managed by AHRC, with bids assessed by an independent Assessment Panel.
 + The structure for bids is that ‘hub’ and ‘node’ organisations form partnerships to put together bids for delivery, with a smaller fund expected during the life of the programme to enable researchers to request digitisation of collections to support targeted research projects.
 + Larger-scale collections with resources to support funding bids and meet other requirements will self-select as ‘hubs’ and work with nodal partners. Collections which are, for example, not large enough to employ a digitisation team for a minimum period of 18 months+ will be able to partner with hubs to bid for funding and deliver digitisation.  
-
-### What are hubs? 
-Hubs are self-selecting and are expected to identify and partner with other organisations to form consortia for bids. 
-+ **Definition**: Institutions with the ambition to digitise their significant collections, support partners with digitisation, and whose infrastructure is well placed to be transformed in support of these goals. 
-+ **Benefits**: Digitised collections, new and sustained forms of impact, enhanced infrastructure (hardware, tech. systems, training), leadership, synergistic opportunities (e.g. AI, partnerships, revenue, services, training).  
-+ **Tasks**: Will manage and distribute funding and resources, meeting digitisation and data publishing targets according to Standard Operating Procedures (SOPs) and audit requirements. 
-+ **Selection**: Self-selecting and competitively confirmed by peer review of institutional or consortium funding bids, based on quality, readiness, and ability to meet requirements. 
-+ **Support**: Funding, training, protocols, digitisation equipment and consumables, project management. 
-+ **Requirements**: Digitisation-ready collections, leadership commitment, space, network infrastructure, HR support, finance/legal support, potential partners. 
-
-### What are nodes? 
-‘Nodes’ are typically smaller collections who will align with hubs for bidding and resourcing. 
-+ **Definition**: UK institutions with the capacity to identify priority collections and (usually) host digitisation – often for a shorter period – helping develop project(s) aligned with a hub organisation.  
-+ **Benefits**: Selected digitised collections, new sustained forms of impact, synergistic opportunities (e.g. AI, partnerships, revenue, services, training).  
-+ **Tasks**: Contribute to bids, prepare collections, and usually support local digitisation. 
-+ **Selection**: Competitively identified by peer review of consortium proposals, based on quality, readiness and impact. 
-+ **Support**: Funding, training, protocols, digitisation equipment and consumables, project management. 
-+ **Requirements**: Digitisation-ready collections, leadership commitment, capacity to work with hubs. 
-
-### How do nodes connect with hubs and access funding? 
-Hub organisations lead the funding applications and will need to include other organisations as nodes within those bids. Before each funding call, ARHC holds matchmaking workshops to enable potential hub and node organisations to identify each other and form a partnership. In future funding calls, hubs may be asked to self-identify prior to the launch of the call, so that their information can be shared with the wider consortium. To ensure node organisations have the opportunity to participate in DiSSCo UK, there will be demands on hubs to work with multiple nodes, and stipulations that specific geographic regions are covered across the bids. 
-
-Most digitisation will be via the main hub and node digitisation, but there will be an additional ‘nodal access fund’ that nodes can access directly. The practicalities of this funding are still being developed, but it will likely be used to target gaps in the main funding, e.g., geographic areas not covered by a hub. 
-
-### Will DiSSCo 'evolve' over the 10-year programme as we learn from digitisation projects? 
-We will complete a number of formal evaluations with an M&E consultant, including a process evaluation that will identify lessons learnt, alongside regular monitoring of programme KPIs to inform how we can improve future funding tranches and overall delivery.  
-
-We expect digitisation workflows and best practice to be refined and updated throughout the programme. The Catalysis centre will focus on improving the speed of digitisation and exploring the use of technology in digitisation e.g., using machine learning to extract information on specimen labels. 
-
-### How are collection types selected for inclusion in funding calls?  
-DiSSCo UK will take a balanced portfolio approach to prioritisation over time, taking into account many factors including:  
-+ Size of the collections
-+ Geographic coverage across the UK
-+ Feasibility and readiness – which collections can be effectively digitised at scale
-+ Research impact and other benefits 
-
-Botany and entomology collections were selected in the first round primarily based on confidence in delivery as there are established workflows for these collections, they are the most sizable collections across the UK, and the impact that can be demonstrated during programme evaluations. 
-
-### What is DiSSCo UK’s relationship with DiSSCo EU?  
-[DiSSCo EU](https://www.dissco.eu/) aims to create a new model for one European collection that digitally unifies all European natural science assets, sharing common access, curation, policies and practices across countries while ensuring that all the data complies with the FAIR principles (Findable, Accessible, Interoperable and Reusable data).  DiSSCo UK will draw on the digital services provided by DiSSCo EU, including the use of specimen-level identifiers and data annotation tools.  
-
-In addition to being a national programme in the UK, DiSSCo UK is the national node for DiSSCo EU.    
-
-### How does DiSSCo UK complement other UK infrastructures and initiatives?  
-DiSSCo UK is a critical component of a UKRI-wide federated national digital research infrastructure built on user-driven and FAIR principles, adding significant value to other investments, and fully aligning with the URKI Digital Research Infrastructure strategy and trusted research guidance. 
-
-DiSSCo UK builds on the AHRC’s experience of successfully developing and delivering major distributed infrastructure projects with partners. These include CoSTAR (2022-), a £75.6M investment to drive innovation in the screen sector, through which AHRC developed a market and need driven approach to a distributed infrastructure; and Research Infrastructure for Conservation and Heritage Science (RICHeS, 2024-), an £80M distributed heritage science research infrastructure and data service through which AHRC have developed funding mechanisms to support disbursing funds to non/IRO HEIs. 
-
-There is significant complementarity with BBSRC and MRC’s BioFAIR, and NERC’s planned Environmental Data Research UK. These infrastructures will drive accessibility and connectivity for digital research across the life and environmental sciences, with DiSSCo UK providing a critical mass of vital data for that research. There is active collaboration between DiSSCo UK and these other programmes and Research Councils, to ensure cross-disciplinary benefits for researchers and avoid duplication.  
-
-### How will DiSSCo UK dovetail with Subject Specialist Networks?  
-
-Specialists and community representatives will be consulted during the planning and delivery phases of the programme. We expect representatives of the DiSSCo UK community to have a seat at the Delivery Board, once established.  
-
-## Funding 
 
 ### What areas does the funding cover? 
 The funding includes:  
@@ -169,6 +114,15 @@ The digitisation funding does not cover:
 
 The funding is only for digitisation of natural science specimens. This does not include living collections, observational data, library and/or archive collections. 
 
+### How are collection types selected for inclusion in funding calls?  
+DiSSCo UK will take a balanced portfolio approach to prioritisation over time, taking into account many factors including:  
++ Size of the collections
++ Geographic coverage across the UK
++ Feasibility and readiness – which collections can be effectively digitised at scale
++ Research impact and other benefits 
+
+Botany and entomology collections were selected in the first round primarily based on confidence in delivery as there are established workflows for these collections, they are the most sizable collections across the UK, and the impact that can be demonstrated during programme evaluations. 
+
 ### What is the depth/level of digitisation that can be applied for in the bidding process? 
 DiSSCo UK is focused on specimen level and collection level digitisation. In-depth analysis of individual specimens is not covered. 
 
@@ -177,6 +131,52 @@ The funding will cover the provision of digitisation workstations, critical cons
 
 ### What organisations are in scope for DiSSCo UK funding? 
 Organisations must be in the UK to receive funding. UK overseas territories and Crown dependencies are not currently able to apply for digitisation funding, however these communities may be able to use DiSSCo UK technical infrastructure to support their data publishing activities, e.g., by using DiSSCo UK data and image storage systems and the DiSSCo UK data portal (dependant on volume and costs). The DiSSCo UK programme team may, on a case-by-case basis, be able to provide remote support to help communities use these systems and assist in leveraging other funding sources to support the digitisation of their collections. 
+
+## Programme structure
+
+### What are hubs? 
+Hubs are self-selecting and are expected to identify and partner with other organisations to form consortia for bids. 
++ **Definition**: Institutions with the ambition to digitise their significant collections, support partners with digitisation, and whose infrastructure is well placed to be transformed in support of these goals. 
++ **Benefits**: Digitised collections, new and sustained forms of impact, enhanced infrastructure (hardware, tech. systems, training), leadership, synergistic opportunities (e.g. AI, partnerships, revenue, services, training).  
++ **Tasks**: Will manage and distribute funding and resources, meeting digitisation and data publishing targets according to Standard Operating Procedures (SOPs) and audit requirements. 
++ **Selection**: Self-selecting and competitively confirmed by peer review of institutional or consortium funding bids, based on quality, readiness, and ability to meet requirements. 
++ **Support**: Funding, training, protocols, digitisation equipment and consumables, project management. 
++ **Requirements**: Digitisation-ready collections, leadership commitment, space, network infrastructure, HR support, finance/legal support, potential partners. 
+
+### What are nodes? 
+‘Nodes’ are typically smaller collections who will align with hubs for bidding and resourcing. 
++ **Definition**: UK institutions with the capacity to identify priority collections and (usually) host digitisation – often for a shorter period – helping develop project(s) aligned with a hub organisation.  
++ **Benefits**: Selected digitised collections, new sustained forms of impact, synergistic opportunities (e.g. AI, partnerships, revenue, services, training).  
++ **Tasks**: Contribute to bids, prepare collections, and usually support local digitisation. 
++ **Selection**: Competitively identified by peer review of consortium proposals, based on quality, readiness and impact. 
++ **Support**: Funding, training, protocols, digitisation equipment and consumables, project management. 
++ **Requirements**: Digitisation-ready collections, leadership commitment, capacity to work with hubs. 
+
+### How do nodes connect with hubs and access funding? 
+Hub organisations lead the funding applications and will need to include other organisations as nodes within those bids. Before each funding call, ARHC holds matchmaking workshops to enable potential hub and node organisations to identify each other and form a partnership. In future funding calls, hubs may be asked to self-identify prior to the launch of the call, so that their information can be shared with the wider consortium. To ensure node organisations have the opportunity to participate in DiSSCo UK, there will be demands on hubs to work with multiple nodes, and stipulations that specific geographic regions are covered across the bids. 
+
+Most digitisation will be via the main hub and node digitisation, but there will be an additional ‘nodal access fund’ that nodes can access directly. The practicalities of this funding are still being developed, but it will likely be used to target gaps in the main funding, e.g., geographic areas not covered by a hub. 
+
+### Will DiSSCo UK 'evolve' over the 10-year programme as we learn from digitisation projects? 
+We will complete a number of formal evaluations with an M&E consultant, including a process evaluation that will identify lessons learnt, alongside regular monitoring of programme KPIs to inform how we can improve future funding tranches and overall delivery.  
+
+We expect digitisation workflows and best practice to be refined and updated throughout the programme. The Catalysis centre will focus on improving the speed of digitisation and exploring the use of technology in digitisation e.g., using machine learning to extract information on specimen labels. 
+
+### What is DiSSCo UK’s relationship with DiSSCo EU?  
+[DiSSCo EU](https://www.dissco.eu/) aims to create a new model for one European collection that digitally unifies all European natural science assets, sharing common access, curation, policies and practices across countries while ensuring that all the data complies with the FAIR principles (Findable, Accessible, Interoperable and Reusable data).  DiSSCo UK will draw on the digital services provided by DiSSCo EU, including the use of specimen-level identifiers and data annotation tools.  
+
+In addition to being a national programme in the UK, DiSSCo UK is the national node for DiSSCo EU.    
+
+### How does DiSSCo UK complement other UK infrastructures and initiatives?  
+DiSSCo UK is a critical component of a UKRI-wide federated national digital research infrastructure built on user-driven and FAIR principles, adding significant value to other investments, and fully aligning with the URKI Digital Research Infrastructure strategy and trusted research guidance. 
+
+DiSSCo UK builds on the AHRC’s experience of successfully developing and delivering major distributed infrastructure projects with partners. These include CoSTAR (2022-), a £75.6M investment to drive innovation in the screen sector, through which AHRC developed a market and need driven approach to a distributed infrastructure; and Research Infrastructure for Conservation and Heritage Science (RICHeS, 2024-), an £80M distributed heritage science research infrastructure and data service through which AHRC have developed funding mechanisms to support disbursing funds to non/IRO HEIs. 
+
+There is significant complementarity with BBSRC and MRC’s BioFAIR, and NERC’s planned Environmental Data Research UK. These infrastructures will drive accessibility and connectivity for digital research across the life and environmental sciences, with DiSSCo UK providing a critical mass of vital data for that research. There is active collaboration between DiSSCo UK and these other programmes and Research Councils, to ensure cross-disciplinary benefits for researchers and avoid duplication.  
+
+### How will DiSSCo UK dovetail with Subject Specialist Networks?  
+
+Specialists and community representatives will be consulted during the planning and delivery phases of the programme. We expect representatives of the DiSSCo UK community to have a seat at the Delivery Board, once established.  
 
 ## Planning and preparation 
 
