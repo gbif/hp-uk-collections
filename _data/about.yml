@@ -18,6 +18,7 @@ map:
     - text: Download the blueprint
       href: /assets/Harnessing the Power of Natural Science Collections.pdf
       isPrimary: true
+  title: Connecting Collections
   description: |
     Our UK collections hold more than 140 million specimens, spanning an incredible 4.6-billion-year history. Together, they provide unparalleled evidence of how our planet has changed over time and how it is changing now.  
     
@@ -29,6 +30,7 @@ map:
     3. Drive innovation by leveraging natural science collections data and technology to accelerate UK economic growth and innovation.  
 
 benefits:
+   title: Powering Discover
   description: |
     The data we need to tackle today’s global challenges already exists, but much of it is locked away. Unlocking and connecting the UK’s natural science collections over the next ten years will make vital evidence on biodiversity, climate and health accessible at the scale and speed needed to inform research, policy, and action.  
     
