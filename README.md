@@ -17,8 +17,8 @@ Staging site: https://uk-collections.hp.gbif-staging.org/
 You can run the site locally for more involved dev work using the following from the root of your repo checkout:
 
 ```bash
-docker run -p "4000:4000" -e JEKYLL_ENV=development --rm --volume="$PWD:/srv/jekyll" docker.gbif.org/fast-jekyll:4.1.0 jekyll serve --port 4000 --host 0.0.0.0
+docker run -it -p "4000:4000" -e JEKYLL_ENV=development --rm --volume="$PWD:/srv/jekyll" docker.gbif.org/fast-jekyll:4.1.0 jekyll serve --port 4000 --host 0.0.0.0
 ```
 
-Annoyingly, this seems to not respond to ctrl-c requests, so you'll have to kill it.
+Press Ctrl-C to stop it. The `-it` flag is what makes Ctrl-C work: without it, the signal only reaches the image's bash wrapper script (running as PID 1), which ignores it, so Jekyll never stops. If you run the command without a terminal (e.g. in a script or CI), `-t` will fail; use `--init -e TINI_KILL_PROCESS_GROUP=1` in place of `-it` instead.
 
