@@ -1,5 +1,6 @@
 ---
 title: FAQs
+description: Frequently asked questions about DiSSCo UK, a national digitisation programme for the UK's natural science collections.
 layout: default
 ---
 
